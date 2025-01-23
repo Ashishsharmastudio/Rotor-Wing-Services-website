@@ -3,7 +3,7 @@
 import React, { useState, Suspense } from 'react';
 import { createClient } from '@/lib/contento';
 import { ContentData } from '@gocontento/client';
-import LeadForm from '@/components/LeadForm';
+// import LeadForm from '@/components/LeadForm';
 import BrandNames from '@/sections/BrandNames';
 import Breadcrumb from './Breadcrumb/Breadcrumb';
 import Link from 'next/link';
@@ -180,7 +180,7 @@ const BlogDirectoryPage: React.FC<{ content: any; }> = ({ content }) => {
 
                 <div className="min-w-[24%] max-w-fit mt-[76px] max-[650px]:mt-0 sticky top-[90px] h-fit">
                     <Suspense fallback={<div className="search-form__loader"></div>}>
-                        <LeadForm widget={true} />
+                        {/* <LeadForm widget={true} /> */}
                     </Suspense>
                 </div>
             </section>

@@ -4,7 +4,7 @@ import BrandNames from '@/sections/BrandNames';
 import Hero from '@/sections/Hero';
 import React from 'react';
 import { Suspense } from "react";
-import LeadForm from '@/components/LeadForm';
+// import LeadForm from '@/components/LeadForm';
 
 export const metadata = {
   title: 'Events - Jetlevel Aviation',
@@ -31,7 +31,7 @@ const EventsPage = () => {
 
         <div className="min-w-[24%] max-w-fit  max-[650px]:mt-0 sticky top-[90px] h-fit">
           <Suspense fallback={<div className="search-form__loader"></div>}>
-            <LeadForm widget={true} />
+            {/* <LeadForm widget={true} /> */}
           </Suspense>
         </div>
 
