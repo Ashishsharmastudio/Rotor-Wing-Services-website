@@ -3,7 +3,6 @@ import Hero from "@/sections/Hero";
 import CollapsibleSection from "./CollapsibleSection";
 import TopCharteredCities from './TopCharteredCities';
 import { Suspense } from "react";
-import LeadForm from '@/components/LeadForm';
 import Breadcrumb from "./Breadcrumb/Breadcrumb";
 import CollapsibleAvinodeCalculatorSection from "./CollapsibleAvinodeCalculatorSection";
 import Widgets_30Percent_Section from "./Widgets_30Percent_Section";

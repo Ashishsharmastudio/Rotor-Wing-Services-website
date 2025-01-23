@@ -6,7 +6,6 @@ import TopCharteredCities from "./TopCharteredCities";
 import CollapsibleAirportSection from "./CollapsibleAirportSection";
 
 import { Suspense } from "react";
-import LeadForm from '@/components/LeadForm';
 import Widgets_30Percent_Section from "./Widgets_30Percent_Section";
 
 const AirportPage = ({ fields }: any) => {

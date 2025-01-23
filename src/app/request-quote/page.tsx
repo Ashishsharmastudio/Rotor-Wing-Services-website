@@ -2,7 +2,6 @@ import Breadcrumb from '@/components/Breadcrumb/Breadcrumb';
 import BrandNames from '@/sections/BrandNames';
 import Hero from '@/sections/Hero';
 import React, { Suspense } from 'react';
-// import LeadForm from '@/components/LeadForm';
 import HalfSection from '@/components/HalfSection';
 
 export const metadata = {

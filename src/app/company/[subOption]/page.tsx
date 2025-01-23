@@ -9,7 +9,6 @@ import Markdown from "markdown-to-jsx";
 import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
-// import LeadForm from '@/components/LeadForm';
 import BlogDirectoryPage from "@/components/BlogDirectoryPage";
 
 type PageProps = {
