@@ -59,7 +59,7 @@ export default function Home() {
         image={"/images/Private jet interior bg .webp"}
         title={"Empower Your Aviation Operations Globally"}
         subtitle={"Your Strategic Aviation Partner"}
-        tagline={"Expert Solutions, Unmatched Precision"}
+        tagline={"Expert Solutions, Unmatched Precision."}
         hasCalculator={true}
         hasOverlay={false}
       />
