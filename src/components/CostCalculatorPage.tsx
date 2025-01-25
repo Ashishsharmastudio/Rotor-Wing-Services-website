@@ -19,7 +19,7 @@ const CostCalculatorPage = () => {
   };
   const faqData = [
     {
-      question:'Is the cost estimate accurate?',
+      question:'Is the cost estimate accurate s?',
       answer:<div>
         <p>The estimates are fairly accurate but should be considered as a general guide. For precise <Link href='/instant-qoute'><span>quotes</span></Link>, contact our team.</p>
       </div>
