@@ -1,142 +1,240 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from 'react';
-import { FaChevronDown } from 'react-icons/fa';
-import NavClickedContent from './NavClickedContent'; // Import your dropdown component
-import Link from 'next/link';
+import React, { useState, useEffect, useRef } from "react";
+import { FaChevronDown } from "react-icons/fa";
+import NavClickedContent from "./NavClickedContent";
+import Link from "next/link";
 
 function NavOptions() {
-    const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-    const navOptionsRef = useRef<HTMLDivElement>(null);
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const navOptionsRef = useRef<HTMLDivElement>(null);
 
-    const handleClick = (menu: string) => {
-        setActiveDropdown((prev) => (prev === menu ? null : menu));
+  const handleClick = (menu: string) => {
+    setActiveDropdown((prev) => (prev === menu ? null : menu));
+  };
+
+  const closeDropdown = () => setActiveDropdown(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        navOptionsRef.current &&
+        !navOptionsRef.current.contains(event.target as Node)
+      ) {
+        setActiveDropdown(null);
+      }
     };
 
-    // Close dropdown function
-    const closeDropdown = () => setActiveDropdown(null);
+    document.addEventListener("click", handleClickOutside);
+    return () => document.removeEventListener("click", handleClickOutside);
+  }, [activeDropdown]);
 
-    useEffect(() => {
-        const handleClickOutside = (event: MouseEvent) => {
-            // If there is an active dropdown and the click happened outside the dropdown container, close it
-            if (navOptionsRef.current && !navOptionsRef.current.contains(event.target as Node)) {
-                setActiveDropdown(null);
-            }
-        };
+  return (
+    <div
+      id="nav-options"
+      className="flex items-center xl:gap-3 font-playfair text-sm tracking-wider"
+      ref={navOptionsRef}
+    >
+      {/* Home */}
+      <Link
+        href="/"
+        className="flex items-center text-white text-nowrap hover:text-blue transition-all duration-100 text-[16px]"
+      >
+        Home
+      </Link>
 
-        document.addEventListener('click', handleClickOutside);
+      {/* About Us Dropdown */}
+      <div onClick={() => handleClick("about")}>
+        <span className="flex items-center cursor-pointer gap-2 mx-2 text-white text-nowrap hover:text-blue transition-all duration-100">
+          About Us <FaChevronDown />
+        </span>
+        {activeDropdown === "about" && (
+          <div onClick={(e) => e.stopPropagation()}>
+            <NavClickedContent
+              subOptions={[
+                {
+                  name: "Our Mission & Vision",
+                  link: "/mission-vision",
+                  image: "/navInsideIcons/About us.svg",
+                },
+                {
+                  name: "Why Choose Us",
+                  link: "/why-choose-us",
+                  image: "/navInsideIcons/Our Team.svg",
+                },
+                {
+                  name: "Global Network",
+                  link: "/global-network",
+                  image: "/navInsideIcons/International.svg",
+                },
+                {
+                  name: "Safety Commitment",
+                  link: "/safety",
+                  image: "/navInsideIcons/Air Ambulance.svg",
+                },
+              ]}
+              closeDropdown={closeDropdown}
+            />
+          </div>
+        )}
+      </div>
 
-        return () => {
-            document.removeEventListener('click', handleClickOutside); // Clean up the event listener
-        };
-    }, [activeDropdown]);
+      {/* Services Dropdown */}
+      <div onClick={() => handleClick("services")}>
+        <span className="flex items-center cursor-pointer gap-2 mx-2 text-white text-nowrap hover:text-blue transition-all duration-100">
+          Services <FaChevronDown />
+        </span>
+        {activeDropdown === "services" && (
+          <div onClick={(e) => e.stopPropagation()}>
+            <NavClickedContent
+              subOptions={[
+                {
+                  name: "Consultancy",
+                  link: "/consultancy",
+                  image: "/navInsideIcons/On-Demand Charter.svg",
+                  submenu: [
+                    "Operations & Maintenance Optimization",
+                    "Fleet Planning",
+                    "Airworthiness & Compliance",
+                    "VTOL Solutions",
+                  ],
+                },
+                {
+                  name: "Training",
+                  link: "/training",
+                  image: "/navInsideIcons/Group Charter.svg",
+                  submenu: [
+                    "Initial Training (EASA, FAA, GCAA)",
+                    "Continued Training",
+                    "Human Factors & Safety Management",
+                  ],
+                },
+                {
+                  name: "Compliance & Safety",
+                  link: "/compliance",
+                  image: "/navInsideIcons/industry_specific_charter.svg",
+                  submenu: [
+                    "Risk Assessment",
+                    "Safety Management Systems",
+                    "Regulatory Audits",
+                  ],
+                },
+                {
+                  name: "Aircraft Solutions",
+                  link: "/aircraft-solutions",
+                  image: "/navInsideIcons/Helicopter.svg",
+                  submenu: [
+                    "Leasing & Brokerage",
+                    "Maintenance Management",
+                    "Prepurchase Inspections",
+                  ],
+                },
+                {
+                  name: "Manpower & Support",
+                  link: "/manpower",
+                  image: "/navInsideIcons/Our Team.svg",
+                  submenu: [
+                    "Crew Resourcing",
+                    "Technical Experts",
+                    "Project Management",
+                  ],
+                },
+              ]}
+              closeDropdown={closeDropdown}
+            />
+          </div>
+        )}
+      </div>
 
-    return (
-        <div id="nav-options" className="flex items-center xl:gap-3 font-playfair text-sm tracking-wider" ref={navOptionsRef}>
-            {/* Home */}
-            <Link href="/" className="flex items-center text-white text-nowrap  hover:text-blue transition-all duration-100 text-[16px]">
-                Home
-            </Link>
+      {/* Industries Dropdown */}
+      <div onClick={() => handleClick("industries")}>
+        <span className="flex items-center cursor-pointer gap-2 mx-2 text-white text-nowrap hover:text-blue transition-all duration-100">
+          Industries <FaChevronDown />
+        </span>
+        {activeDropdown === "industries" && (
+          <div onClick={(e) => e.stopPropagation()}>
+            <NavClickedContent
+              subOptions={[
+                {
+                  name: "Offshore Energy",
+                  link: "/offshore",
+                  image: "/navInsideIcons/US & CANADA.svg",
+                },
+                {
+                  name: "Government Contracts",
+                  link: "/government",
+                  image: "/navInsideIcons/International.svg",
+                },
+                {
+                  name: "Emergency Services",
+                  link: "/emergency",
+                  image: "/navInsideIcons/Air Ambulance.svg",
+                },
+                {
+                  name: "Commercial Aviation",
+                  link: "/commercial",
+                  image: "/navInsideIcons/Aircraft Types.svg",
+                },
+              ]}
+              closeDropdown={closeDropdown}
+            />
+          </div>
+        )}
+      </div>
 
-            {/* ABOUT US */}
-            <Link href="/cost-of-chartering-a-private-jet" className="flex items-center text-white text-nowrap  hover:text-blue transition-all duration-100 text-[16px]">
-                About Us
-            </Link>
-            {/* OUR SERVICES Dropdown */}
-            <div onClick={() => { handleClick('services'); }}>
-                <span className="flex items-center cursor-pointer gap-2 mx-2 text-white text-nowrap  hover:text-blue transition-all duration-100">
-                    OUR SERVICES <FaChevronDown />
-                </span>
-                {activeDropdown === 'services' && (
-                    <div onClick={(e) => e.stopPropagation()}> {/* Prevent the click inside the dropdown from closing it */}
-                        <NavClickedContent
-                            subOptions={[
-                                { name: 'On-Demand Charter', link: '/private-jet-charter', image: '/navInsideIcons/On-Demand Charter.svg' },
-                                { name: 'Group Charter', link: '/group-charter-flight', image: '/navInsideIcons/Group Charter.svg' },
-                                { name: 'Industry Specific', link: '/industry-specific-charter', image: '/navInsideIcons/industry_specific_charter.svg' },
-                                { name: 'Air Ambulance', link: '/medical-flight-transport', image: '/navInsideIcons/Air Ambulance.svg' },
-                                { name: 'Helicopter', link: '/Helicopter-Charter-Flight', image: '/navInsideIcons/Helicopter.svg' },
-                            ]}
-                            closeDropdown={closeDropdown} // Pass the closeDropdown function here
-                        />
-                    </div>
-                )}
-            </div>
+      {/* Training Link */}
+      <Link
+        href="/training-programs"
+        className="flex items-center text-white text-nowrap hover:text-blue transition-all duration-100 text-[16px]"
+      >
+        Training
+      </Link>
 
-            {/* Traning */}
-            <Link href="/cost-of-chartering-a-private-jet" className="flex items-center text-white text-nowrap  hover:text-blue transition-all duration-100 text-[16px]">
-                Training
-            </Link>
+      {/* Resources Dropdown */}
+      <div onClick={() => handleClick("resources")}>
+        <span className="flex items-center cursor-pointer gap-2 mx-2 text-white text-nowrap hover:text-blue transition-all duration-100">
+          Resources <FaChevronDown />
+        </span>
+        {activeDropdown === "resources" && (
+          <div onClick={(e) => e.stopPropagation()}>
+            <NavClickedContent
+              subOptions={[
+                {
+                  name: "News & Insights",
+                  link: "/news",
+                  image: "/navInsideIcons/Popular Routes.svg",
+                },
+                {
+                  name: "Whitepapers",
+                  link: "/whitepapers",
+                  image: "/navInsideIcons/Distance Calculator.svg",
+                },
+                {
+                  name: "Media Gallery",
+                  link: "/media",
+                  image: "/navInsideIcons/Flight Tracker.svg",
+                },
+                {
+                  name: "Careers",
+                  link: "/careers",
+                  image: "/navInsideIcons/Charter FAQs.svg",
+                },
+              ]}
+              closeDropdown={closeDropdown}
+            />
+          </div>
+        )}
+      </div>
 
-            {/* Contact Us */}
-            <Link href="/cost-of-chartering-a-private-jet" className="flex items-center text-white text-nowrap  hover:text-blue transition-all duration-100 text-[16px]">
-                Contact Us
-            </Link>
-
-            {/* Repeat for other dropdowns */}
-            {/* JET CHARTER Dropdown */}
-            {/* <div onClick={() => { handleClick('jet-charter'); }}>
-                <span className="flex items-center cursor-pointer gap-2 mx-2 text-white text-nowrap  hover:text-blue transition-all duration-100">
-                    JET CHARTER <FaChevronDown />
-                </span>
-                {activeDropdown === 'jet-charter' && (
-                    <div onClick={(e) => e.stopPropagation()}>
-                        <NavClickedContent
-                            subOptions={[
-                                { name: 'US & Canada', link: '/us-canada-chartered-cities', image: '/navInsideIcons/US & CANADA.svg' },
-                                { name: 'International', link: '/international-chartered-cities', image: '/navInsideIcons/International.svg' },
-                                { name: 'Popular Routes', link: '/popular-routes', image: '/navInsideIcons/Popular Routes.svg' },
-                                { name: 'Empty Legs', link: '/empty-leg-flights', image: '/navInsideIcons/Empty Legs.svg' },
-                            ]}
-                            closeDropdown={closeDropdown} // Pass the closeDropdown function here
-                        />
-                    </div>
-                )}
-            </div> */}
-
-            {/* <div onClick={() => { handleClick('charter-resources'); }}>
-                <span className="flex items-center cursor-pointer gap-2 mx-2 text-white text-nowrap  hover:text-blue transition-all duration-100">
-                    CHARTER RESOURCES <FaChevronDown />
-                </span>
-                {activeDropdown === 'charter-resources' && (
-                    <div onClick={(e) => e.stopPropagation()}>
-                        <NavClickedContent
-                            subOptions={[
-                                { name: 'Private Jet Airports', link: '/usa-airport-directory', image: '/navInsideIcons/Private jet Airports.svg' },
-                                { name: 'Aircraft Types', link: '/aircraft-charters/', image: '/navInsideIcons/Aircraft Types.svg' },
-                                { name: 'Cost Estimator', link: '/charter-flights-cost-calculator', image: '/navInsideIcons/Cost Estimator.svg' },
-                                { name: 'Flight Tracker', link: '/flight-tracker', image: '/navInsideIcons/Flight Tracker.svg' },
-                                { name: 'Distance Calculator', link: '/distance-calculator', image: '/navInsideIcons/Distance Calculator.svg' },
-                            ]}
-                            closeDropdown={closeDropdown} // Pass the closeDropdown function here
-                        />
-                    </div>
-                )}
-            </div> */}
-
-            
-
-            {/* <div onClick={() => handleClick('company')}>
-                <span className="flex items-center cursor-pointer gap-2 mx-2 text-white text-nowrap  hover:text-blue transition-all duration-100">
-                    COMPANY <FaChevronDown />
-                </span>
-                {activeDropdown === 'company' && (
-                    <div onClick={(e) => e.stopPropagation()}>
-                        <NavClickedContent
-                            subOptions={[
-                                { name: 'About Us', link: '/about-jet-level', image: '/navInsideIcons/About us.svg' },
-                                { name: 'Contact Us', link: '/contact-us', image: '/navInsideIcons/Contact Us.svg' },
-                                { name: 'Blogs', link: '/blog', image: '/navInsideIcons/On-Demand Charter.svg' },
-                                { name: 'Charter FAQs', link: '/private-jet-frequently-asked-questions', image: '/navInsideIcons/Charter FAQs.svg' },
-                                { name: 'Our Team', link: '/our-team', image: '/navInsideIcons/Our Team.svg' },
-                            ]}
-                            closeDropdown={closeDropdown} // Pass the closeDropdown function here
-                        />
-                    </div>
-                )}
-            </div> */}
-        </div>
-    );
+      {/* Contact Us */}
+      <Link
+        href="/contact"
+        className="flex items-center text-white text-nowrap hover:text-blue transition-all duration-100 text-[16px]"
+      >
+        Contact Us
+      </Link>
+    </div>
+  );
 }
 
 export default NavOptions;

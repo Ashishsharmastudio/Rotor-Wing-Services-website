@@ -37,52 +37,60 @@ const CompanyOverview = ({
   const carouselItems: CarouselItem3[] = [
     {
       icon: <Routes_DistanceCalculator />,
-      title: "Routes",
+      title: "Crew Resourcing",
       link: "/popular-routes",
     },
     {
       icon: <UsCanadaCities />,
-      title: "US & Canada Cities",
+      title: "Operational Support",
       link: "/us-canada-chartered-cities",
     },
     {
       icon: <InternationalCities />,
-      title: "International Cities",
+      title: "Aviation Training",
       link: "/international-chartered-cities",
     },
-    { icon: <Aircraft />, title: "Aircraft", link: "/aircraft-charters" },
-    { icon: <Airports />, title: "Airports", link: "/usa-airport-directory" },
+    {
+      icon: <Aircraft />,
+      title: "Compliance Solutions",
+      link: "/aircraft-charters",
+    },
+    {
+      icon: <Airports />,
+      title: "24/7 Global Network",
+      link: "/usa-airport-directory",
+    },
   ];
 
   const carouselItems2: CarouselItem4[] = [
     {
       icon: <Routes_DistanceCalculator />,
-      title: "Routes",
-      description: "Explore diverse routes for your travel needs.",
+      title: "Crew Resourcing",
+      description: "Access skilled pilots and technical experts worldwide.",
       link: "/popular-routes",
     },
     {
       icon: <UsCanadaCities />,
-      title: "US & Canada Cities",
-      description: "Connect to major cities across US and Canada.",
+      title: "Operational Support",
+      description: "Tailored strategies for regional aviation operations.",
       link: "/us-canada-chartered-cities",
     },
     {
       icon: <InternationalCities />,
-      title: "International Cities",
-      description: "Fly globally to various international destinations.",
+      title: "Aviation Training",
+      description: "Global certifications (EASA, FAA, GCAA) for crews.",
       link: "/international-chartered-cities",
     },
     {
       icon: <Aircraft />,
-      title: "Aircraft",
-      description: "Choose from a wide range of luxury jets.",
+      title: "Compliance Solutions",
+      description: "Full safety audits and regulatory compliance.",
       link: "/aircraft-charters",
     },
     {
       icon: <Airports />,
-      title: "Airports",
-      description: "Access convenient airports for your journey.",
+      title: "24/7 Global Network",
+      description: "Worldwide support for urgent aviation needs.",
       link: "/usa-airport-directory",
     },
   ];

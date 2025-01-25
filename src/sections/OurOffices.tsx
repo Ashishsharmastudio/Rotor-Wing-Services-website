@@ -1,37 +1,68 @@
-import React from 'react';
-import { OurOfficesSvg } from '@/svg';
+import React from "react";
+import { OurOfficesSvg } from "@/svg";
 
 const OurOffices = () => {
-    return (
-        <section className="bg-cover bg-center h-screen max-h-[900px] overflow-hidden bg-ourOffices-background overlay p-0 flex items-center">
-            <div className="max-w-[1800px] w-full mx-auto px-5 md:px-32  flex flex-col text-white justify-center">
-                <h2 className="mb-4 text-white">Our Offices</h2>
-                <div className='flex flex-col items-center md:flex-row gap-10 md:gap-14'>
-                    <div className='lg:w-1/2'>
-                        <div className="flex justify-center items-center mb-4 bg-blue w-20 lg:w-28 h-20 lg:h-28 rounded-full">
-                            <OurOfficesSvg />
-                        </div>
-                        <h3 className="font-bold text-3xl">Orlando</h3>
-                        <p className="mt-3 text-lg">
-                            <a href="https://maps.app.goo.gl/vwTsaBof4HV6fryJ9">3505 Lake Lynda Dr #200, Orlando, FL 32817</a><br />
-                            <a href="tel:+18555385383">(855) 538-5383</a>
-                        </p>
-                    </div>
-                    <div className='lg:w-1/2'>
-                        <div className="flex justify-center items-center mb-4 bg-blue w-20 lg:w-28 h-20 lg:h-28 rounded-full">
-                            <OurOfficesSvg />
-                        </div>
-                        <h3 className="font-bold text-3xl">Ocala</h3>
-                        <p className="mt-3 text-lg">
-                            <a href="https://maps.app.goo.gl/VuP6Mmjdao4Jo1jEA">1770 SW 60th Ave Suite 201, Ocala, FL 34474</a>
-                            <br />
-                            <a href="tel:+18555385383">(855) 538-5383</a>
-                        </p>
-                    </div>
-                </div>
+  return (
+    <section className="bg-cover bg-center h-screen max-h-[900px] overflow-hidden bg-ourOffices-background overlay p-0 flex items-center">
+      <div className="max-w-[1800px] w-full mx-auto px-5 md:px-32 flex flex-col text-white justify-center">
+        <h2 className="mb-4 text-white">Global Network & Offices</h2>
+        <div className="flex flex-col items-center md:flex-row gap-10 md:gap-14">
+          {/* Dubai Office */}
+          <div className="lg:w-1/2">
+            <div className="flex justify-center items-center mb-4 bg-blue w-20 lg:w-28 h-20 lg:h-28 rounded-full">
+              <OurOfficesSvg />
             </div>
-        </section>
-    );
+            <h3 className="font-bold text-3xl">Dubai (HQ)</h3>
+            <p className="mt-3 text-lg">
+              <a href="https://maps.app.goo.gl/example-dubai">
+                Aviation City, Dubai World Central
+                <br />
+                Dubai, UAE
+              </a>
+              <br />
+              <a href="tel:+97142234567">+971 4 223 4567</a>
+            </p>
+          </div>
+
+          {/* London Office */}
+          <div className="lg:w-1/2">
+            <div className="flex justify-center items-center mb-4 bg-blue w-20 lg:w-28 h-20 lg:h-28 rounded-full">
+              <OurOfficesSvg />
+            </div>
+            <h3 className="font-bold text-3xl">London</h3>
+            <p className="mt-3 text-lg">
+              <a href="https://maps.app.goo.gl/example-london">
+                Aviation House, Gatwick Airport
+                <br />
+                London, UK
+              </a>
+              <br />
+              <a href="tel:+441293456789">+44 1293 456 789</a>
+            </p>
+          </div>
+        </div>
+
+        {/* Second Row - Singapore Office */}
+        <div className="flex flex-col items-center md:flex-row gap-10 md:gap-14 mt-14">
+          <div className="lg:w-1/2">
+            <div className="flex justify-center items-center mb-4 bg-blue w-20 lg:w-28 h-20 lg:h-28 rounded-full">
+              <OurOfficesSvg />
+            </div>
+            <h3 className="font-bold text-3xl">Singapore</h3>
+            <p className="mt-3 text-lg">
+              <a href="https://maps.app.goo.gl/example-singapore">
+                20 Changi Airport Blvd
+                <br />
+                Singapore
+              </a>
+              <br />
+              <a href="tel:+6565123456">+65 6512 3456</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default OurOffices;

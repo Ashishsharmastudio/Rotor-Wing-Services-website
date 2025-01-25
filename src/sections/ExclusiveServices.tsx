@@ -1,60 +1,79 @@
-import React from 'react';
-import { OnDemandCharter, GroupCharter, AirAmbulance, Helicopter, EmptyLeg, IndustrySpecific } from '@/svg';
-import CustomComponent from '@/components/CustomComponent';
-import { CardInfo } from '@/app/types';
-
+import React from "react";
+import {
+  OnDemandCharter,
+  GroupCharter,
+  AirAmbulance,
+  Helicopter,
+  EmptyLeg,
+  IndustrySpecific,
+} from "@/svg";
+import CustomComponent from "@/components/CustomComponent";
+import { CardInfo } from "@/app/types";
 
 interface ExclusiveServicesProps {
-    hasSectionPadding?: boolean;
-    hasInlinePadding?: boolean;
+  hasSectionPadding?: boolean;
+  hasInlinePadding?: boolean;
 }
 
-const ExclusiveServices: React.FC<ExclusiveServicesProps> = ({ hasSectionPadding, hasInlinePadding = true }) => {
-    let heading: string = 'Our Exclusive Services';
-    let para: string = 'JetLevel Aviation specializes in providing exceptional private jet charter services, catering to a variety of travel needs with unparalleled luxury and efficiency.';
+const ExclusiveServices: React.FC<ExclusiveServicesProps> = ({
+  hasSectionPadding,
+  hasInlinePadding = true,
+}) => {
+  let heading: string = "Our Exclusive Aviation Services";
+  let para: string =
+    "Rotor Wing Services delivers specialized aviation solutions through a global network of experts, ensuring operational excellence and regulatory compliance.";
 
-    const data: CardInfo[] = [
-        {
-            icon: <OnDemandCharter />,
-            title: "On Demand Charter",
-            description: "On-demand private jet charter for ultimate flexibility and convenience",
-            link: '/private-jet-charter'
-        },
-        {
-            icon: <GroupCharter />,
-            title: "Group Charter",
-            description: "Private jet solutions for group travel, combining luxury with comfort",
-            link: '/group-charter-flight'
-        },
-        {
-            icon: <AirAmbulance />,
-            title: "Air Ambulance",
-            description: "Dedicated private jets equipped for medical emergencies and care",
-            link: '/medical-flight-transport'
-        },
-        {
-            icon: <Helicopter />,
-            title: "Helicopter",
-            description: "Complement your private jet charter experience with swift helicopter transfers",
-            link: '/Helicopter-Charter-Flight'
-        },
-        {
-            icon: <EmptyLeg />,
-            title: "Empty Leg",
-            description: "Economical private jet travel with our one-way empty leg flights",
-            link: '/empty-leg-flights'
-        },
-        {
-            icon: <IndustrySpecific />,
-            title: "Industry Specific",
-            description: "Customized solutions for specialized business requirements",
-            link: '/industry-specific-charter'
-        }
-    ];
+  const data: CardInfo[] = [
+    {
+      icon: <OnDemandCharter />, // Repurposed for crew availability
+      title: "Crew Resourcing",
+      description:
+        "Access skilled pilots and technical experts for mission-critical operations",
+      link: "/crew-resourcing",
+    },
+    {
+      icon: <GroupCharter />, // Repurposed for team operations
+      title: "Operational Support",
+      description:
+        "Comprehensive solutions for fleet management and daily operations",
+      link: "/operational-support",
+    },
+    {
+      icon: <AirAmbulance />, // Repurposed for urgent training needs
+      title: "Training Programs",
+      description: "EASA/FAA certified initial and recurrent aviation training",
+      link: "/training-programs",
+    },
+    {
+      icon: <Helicopter />, // Repurposed for aviation consultancy
+      title: "Aviation Consultancy",
+      description: "Expert solutions for fleet optimization and modifications",
+      link: "/aviation-consultancy",
+    },
+    {
+      icon: <EmptyLeg />, // Repurposed for maintenance efficiency
+      title: "Maintenance & Compliance",
+      description: "Full-spectrum airworthiness management and audits",
+      link: "/maintenance-compliance",
+    },
+    {
+      icon: <IndustrySpecific />, // Repurposed for global reach
+      title: "Global Network",
+      description: "24/7 worldwide support for aviation operations",
+      link: "/global-network",
+    },
+  ];
 
-    return (
-        <CustomComponent heading={heading} para={para} background="white" items={data} hasPadding={hasSectionPadding} hasInlinePadding={hasInlinePadding} />
-    );
+  return (
+    <CustomComponent
+      heading={heading}
+      para={para}
+      background="white"
+      items={data}
+      hasPadding={hasSectionPadding}
+      hasInlinePadding={hasInlinePadding}
+    />
+  );
 };
 
 export default ExclusiveServices;

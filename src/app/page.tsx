@@ -15,41 +15,44 @@ import WhatOurClientsSay from "@/sections/WhatOurClientsSay";
 import Faqs from "@/sections/Faqs";
 
 export const metadata = {
-  title: "Private Jet Charter & Jet Rental Service | JetLevel Aviation",
+  title: "Specialized Aviation Services | Rotor Wing Services",
   description:
-    "JetLevel Aviation offers premier 24/7 private jet charter services. Experience unparalleled luxury and flawless travel with us. Elevate your journey today.",
+    "Rotor Wing Services offers expert aviation solutions, including crew resourcing, operational support, training, and consultancy. Partner with us for seamless global aviation operations.",
 };
 
 export default function Home() {
   const IconsItems = [
     {
-      icon: "Routes_DistanceCalculator",
-      title: "Routes",
-      description: "Explore diverse routes for your travel needs.",
+      icon: "Routes_DistanceCalculator", // Keep icon, update text
+      title: "Expert Crew Resourcing",
+      description:
+        "Access skilled pilots, crew, and technical experts worldwide.",
       bgcolor: "white",
     },
     {
-      icon: "UsCanadaCities",
-      title: "US & Canada Cities",
-      description: "Connect to major cities across US and Canada.",
+      icon: "UsCanadaCities", // Keep icon, update text
+      title: "Operational Support",
+      description: "Optimize efficiency with tailored operational strategies.",
       bgcolor: "white",
     },
     {
-      icon: "InternationalCities",
-      title: "International Cities",
-      description: "Fly globally to various international destinations.",
+      icon: "InternationalCities", // Keep icon, update text
+      title: "Training Programs",
+      description:
+        "EASA, FAA, and GCAA-certified initial and continued training.",
       bgcolor: "white",
     },
     {
-      icon: "Aircraft",
-      title: "Aircraft",
-      description: "Choose from a wide range of luxury jets.",
+      icon: "Aircraft", // Keep icon, update text
+      title: "Compliance & Auditing",
+      description:
+        "Full safety management and regulatory compliance solutions.",
       bgcolor: "white",
     },
     {
-      icon: "Airports",
-      title: "Airports",
-      description: "Access convenient airports for your journey.",
+      icon: "Airports", // Keep icon, update text
+      title: "Global Network",
+      description: "24/7 support across international aviation operations.",
       bgcolor: "white",
     },
   ];
@@ -68,7 +71,7 @@ export default function Home() {
         heading="Empowering Aviation Operators Globally"
         collapseText={true}
         description={
-          "Rotor Wing Services stands as your premier global partner in specialized aviation services. Founded on the principles of expertise and precision, we deliver comprehensive solutions that transform operational challenges into strategic opportunities. Our network of skilled pilots, technical experts, and crew members provides tailored support ranging from temporary mission assistance to long-term operational strategies. We pride ourselves on offering end-to-end services including crew resourcing, operational optimization, specialized training, and strategic consultancy. With an unwavering commitment to quality and safety, we ensure your aviation operations maintain peak efficiency and preparedness."
+          "Rotor Wing Services is your premier global partner in specialized aviation services. We provide expert crew resourcing, operational support, comprehensive training, and strategic consultancy to ensure your aviation operations run seamlessly. With a network of skilled pilots, technical experts, and crew members, we deliver tailored solutions for temporary missions, long-term operations, and unique challenges. Our commitment to quality and safety ensures peak efficiency and preparedness for all your aviation needs."
         }
         IconsItems={IconsItems}
       />
@@ -82,8 +85,8 @@ export default function Home() {
       <PopularPrivateJetCharters />
       <FourMetrics />
       <AvailableAircrafts
-        heading="Available Private Jets"
-        subHeading="We Offer Hundreds of Private Jets to Choose from in various Jet Sizes, Explore some of them below."
+        heading="Our Helicopter Fleet & Solutions"
+        subHeading="Explore Rotor Wing Services' specialized aviation solutions and helicopter capabilities for diverse operational requirements."
       />
       <WhatOurClientsSay />
       <Faqs />
