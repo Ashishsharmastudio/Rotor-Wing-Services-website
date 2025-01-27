@@ -3,7 +3,7 @@ import React, { Suspense, useState } from 'react';
 
 import Link from 'next/link';
 import Collapsible from '@/components/Collapsible'
-import Button from '@/components/Button';
+// import Button from '@/components/Button';
 import SmartTravelTools from '@/sections/SmartTravelTools';
 import PopularPrivateJetCharters from '@/sections/PopularPrivateJetCharters';
 import Hero from '@/sections/Hero';
@@ -146,10 +146,10 @@ const CostCalculatorPage = () => {
                 <>
                   <p className='mb-8 '>For more comprehensive information on charter flight costs, we offer downloadable PDF guides. These resources delve deeper into cost structures, types of aircraft, and more.</p>
                   <a href='https://assets.contento.io/assets/s_01JA0hQj1BcayHdvz8pvEM0GH0/The-Comprehensive-Guide-to-Chartering-a-Private-Jet.pdf' download>
-                    <Button
+                    {/* <Button
                       text='Click here to download'
                       variant='primary'
-                    />
+                    /> */}
                   </a>
                 </>
               }
