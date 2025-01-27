@@ -180,6 +180,7 @@ const CompanyOverview = ({
               description={item.description}
               link={item.link}
               bgcolor="white"
+            
             />
           ))
         }
