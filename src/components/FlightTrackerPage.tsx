@@ -9,7 +9,7 @@ import Hero from '@/sections/Hero';
 import BrandNames from '@/sections/BrandNames';
 import Breadcrumb from './Breadcrumb/Breadcrumb';
 import HalfSection from './HalfSection';
-import FlightTracker from '@/components/FlightTracker';
+// import FlightTracker from '@/components/FlightTracker';
 
 
 const FlightTrackerPage = () => {

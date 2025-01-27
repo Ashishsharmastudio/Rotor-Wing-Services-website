@@ -3,7 +3,7 @@ import Breadcrumb from '@/components/Breadcrumb/Breadcrumb';
 import TopCharteredCities from '@/components/TopCharteredCities';
 import SmartTravelTools from '@/sections/SmartTravelTools';
 import PopularPrivateJetCharters from '@/sections/PopularPrivateJetCharters';
-import LeadForm from '@/components/LeadForm';
+// import LeadForm from '@/components/LeadForm';
 import Widgets_30Percent_Section from './Widgets_30Percent_Section';
 interface HalfSectionProps {
   children: ReactNode;
