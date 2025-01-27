@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import HalfSection from './HalfSection';
 import Collapsible from '@/components/Collapsible';
-import Button from './Button';
+// import Button from './Button';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -69,10 +69,10 @@ const InstantQuote = () => {
                 </ul>
                 <p className='border-t pt-2 mb-3 border-[lightgray] '>After submitting the form, you’ll receive an instant email confirmation.</p>
                 <div className='text-center mt-8'>
-                  <Button
+                  {/* <Button
                     text='Get Your Quote Instantly'
                     variant='primary'
-                  />
+                  /> */}
                 </div>
               </div>
             }
@@ -191,10 +191,10 @@ const InstantQuote = () => {
                 <p className='text-center mb-8 w-[85%] m-[0_auto] '>JetLevel Aviation has simplified the air charter quote and charter plane quote process to offer you a hassle-free experience. Our instant quotes are designed to provide you with the information you need swiftly and accurately. Why wait? Get your quote today and soar to new heights of luxury and convenience.</p>
                 <h2 className='text-center w-[85%] m-[0_auto] text-[30px]'>Ready to experience the difference? Get your charter flight quote or online private jet quote now.</h2>
                 <div className='text-center mt-[40px]'>
-                  <Button
+                  {/* <Button
                     text='Get Your Quote Instantly'
                     variant='primary'
-                  />
+                  /> */}
                 </div>
               </div>
             }

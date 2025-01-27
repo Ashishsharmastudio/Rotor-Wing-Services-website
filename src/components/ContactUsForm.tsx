@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Button from '@/components/Button';
+// import Button from '@/components/Button';
 
 interface ContactFormValues {
   name: string;
@@ -135,11 +135,11 @@ const ContactUsForm: React.FC = () => {
         />
         {errors.numberValue && <span style={{ color: "red" }}>{errors.numberValue}</span>}
       </div>
-      <Button
+      {/* <Button
         text='Send'
         variant='primary'
         className='w-[30%]'
-      />
+      /> */}
     </form>
   );
 };

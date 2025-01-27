@@ -2,7 +2,7 @@
 import React, { Suspense, useState } from 'react';
 import Link from 'next/link';
 import Collapsible from '@/components/Collapsible'
-import Button from '@/components/Button';
+// import Button from '@/components/Button';
 import SmartTravelTools from '@/sections/SmartTravelTools';
 import PopularPrivateJetCharters from '@/sections/PopularPrivateJetCharters';
 import Hero from '@/sections/Hero';
@@ -124,10 +124,10 @@ const FlightTrackerPage = () => {
           <p className='!leading-7 text-[17px]  mb-4'>Safe travels and blue skies ahead!</p>
           <div className="text-center pt-8">
             <Link href={'/flight-tracker/#my-iframe'}>
-          <Button
+          {/* <Button
               text='Track a Flight'
               variant='primary'
-          />
+          /> */}
           </Link>
         </div>
         </>

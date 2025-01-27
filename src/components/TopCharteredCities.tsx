@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import Button from '@/components/Button';
+// import Button from '@/components/Button';
 
 type City = {
     name: string;
@@ -31,10 +31,10 @@ const TopCharteredCities: React.FC<TopCharteredCitiesProps> = ({ title, cities, 
                 </div>
                 <div className="text-center px-1 xl:px-5">
                     <Link href={buttonLink} className='text-sm'>
-                    <Button
+                    {/* <Button
                         text='View All '
                         variant='primary'
-                    />
+                    /> */}
                     </Link>
 
                 </div>

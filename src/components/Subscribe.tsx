@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Button from '@/components/Button';
+// import Button from '@/components/Button';
 
 const SubscribeUs: React.FC = () => {
   const [name, setName] = useState('');
@@ -47,10 +47,10 @@ const SubscribeUs: React.FC = () => {
             </div>
             <div>
              
-              <Button 
+              {/* <Button 
                 text="Subscribe Now" 
                 className="w-full bg-[#222222] rounded-lg mt-0 mb-0 p-[20px_30px_20px_30px] text-white"
-              />
+              /> */}
             </div>
           </form>
         </div>
