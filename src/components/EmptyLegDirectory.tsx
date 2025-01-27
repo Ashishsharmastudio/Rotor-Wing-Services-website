@@ -4,7 +4,7 @@ import CollapsibleAvinodeCalculatorSection from './CollapsibleAvinodeCalculatorS
 import Breadcrumb from './Breadcrumb/Breadcrumb';
 import TopCharteredCities from './TopCharteredCities';
 import { Suspense } from "react";
-import LeadForm from '@/components/LeadForm';
+// import LeadForm from '@/components/LeadForm';
 import Widgets_30Percent_Section from './Widgets_30Percent_Section';
 
 const EmptyLegDirectory = () => {
