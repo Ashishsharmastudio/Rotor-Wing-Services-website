@@ -79,7 +79,7 @@ export default function Home() {
       <ExclusiveServices />
       <OurOffices />
       <CharterProcessSteps />
-      {/*       <MeetOwner /> */}
+        <MeetOwner />
       <SmartTravelTools />
       <OurComitment />
       <PopularPrivateJetCharters />
