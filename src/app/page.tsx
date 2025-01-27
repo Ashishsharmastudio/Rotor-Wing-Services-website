@@ -59,7 +59,7 @@ export default function Home() {
   return (
     <>
       <Hero
-        image={"/images/Private jet interior bg .webp"}
+        video={"/images/Private jet interior bg .mp4"}
         title={"Empower Your Aviation Operations Globally"}
         subtitle={"Your Strategic Aviation Partner"}
         tagline={"Expert Solutions, Unmatched Precision."}
