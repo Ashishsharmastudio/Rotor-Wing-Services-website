@@ -7,8 +7,7 @@ import ContactMenu from "@/sections/ContactMenu";
 import Script from 'next/script';
 import 'aos/dist/aos.css';
 import "react-datepicker/dist/react-datepicker.css";
-import BookYourPrivateJet from '@/sections/BookYourPrivateJet';
-import { Analytics } from "@vercel/analytics/react";
+// import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 
@@ -118,7 +117,7 @@ export default function RootLayout({
         <ContactMenu />
         <Footer />
 
-        <Analytics />
+        {/* <Analytics /> */}
         <SpeedInsights />
       </body>
     </html>
