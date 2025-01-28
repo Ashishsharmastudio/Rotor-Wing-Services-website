@@ -20,7 +20,7 @@ const PopularPrivateJetCharters: React.FC<PopularPrivateJetChartersProps> = ({
     },
     {
       imageLink: "/images/Las Vegas Hero Image.jpg",
-      name: "24/7 Operational Support",
+      name: "Operational Support",
       altText: "Round-the-clock aviation operations center",
       pageLink: "/operational-support",
     },

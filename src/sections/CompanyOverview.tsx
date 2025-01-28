@@ -126,7 +126,7 @@ const CompanyOverview = ({
                 className={`block xl:hidden details leading-relaxed details`}
               >
                 <p>
-                  At JetLevel Aviation, we're redefining the private jet charter
+                  AtRWS Aviation, we're redefining the private jet charter
                   experience by prioritizing safety, reliability, and
                   transparency. Founded in 2019, we've established ourselves as
                   a trusted global advisor in the aviation industry. Our mission
@@ -180,7 +180,6 @@ const CompanyOverview = ({
               description={item.description}
               link={item.link}
               bgcolor="white"
-            
             />
           ))
         }
