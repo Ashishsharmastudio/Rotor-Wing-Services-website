@@ -6,9 +6,11 @@ const OurOffices = () => {
     <section className="bg-cover bg-center h-screen max-h-[900px] overflow-hidden bg-ourOffices-background overlay p-0 flex items-center">
       <div className="max-w-[1800px] w-full mx-auto px-5 md:px-32 flex flex-col text-white justify-center">
         <h2 className="mb-4 text-white">Global Network & Offices</h2>
-        <div className="flex flex-col items-center md:flex-row gap-10 md:gap-14">
+
+        {/* First Row - Dubai & London */}
+        <div className="grid grid-cols-2 gap-5 md:flex md:flex-row md:gap-60">
           {/* Dubai Office */}
-          <div className="lg:w-1/2">
+          <div className="text-left">
             <div className="flex justify-center items-center mb-4 bg-blue w-20 lg:w-28 h-20 lg:h-28 rounded-full">
               <OurOfficesSvg />
             </div>
@@ -25,7 +27,7 @@ const OurOffices = () => {
           </div>
 
           {/* London Office */}
-          <div className="lg:w-1/2">
+          <div className="text-left">
             <div className="flex justify-center items-center mb-4 bg-blue w-20 lg:w-28 h-20 lg:h-28 rounded-full">
               <OurOfficesSvg />
             </div>
@@ -42,9 +44,9 @@ const OurOffices = () => {
           </div>
         </div>
 
-        {/* Second Row - Singapore Office */}
-        <div className="flex flex-col items-center md:flex-row gap-10 md:gap-14 mt-14">
-          <div className="lg:w-1/2">
+        {/* Second Row - Singapore (Hidden on mobile) */}
+        <div className="hidden md:flex md:flex-row gap-10 md:gap-14 mt-14">
+          <div className="lg:w-1/2 text-left">
             <div className="flex justify-center items-center mb-4 bg-blue w-20 lg:w-28 h-20 lg:h-28 rounded-full">
               <OurOfficesSvg />
             </div>
