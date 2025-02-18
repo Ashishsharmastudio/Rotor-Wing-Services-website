@@ -1,324 +1,77 @@
 {
-  "event":[
+  "event": [
     {
-      "name":"Events August 2024",
-      "content":[
+      "name": "Company Announcements",
+      "content": [
         {
-          "heading":"Charter a Private Jet to the Country Music Awards",
-          "image":"/images2/Events-Featured-Images.jpg",
-          "description":"The Country Music Awards (CMA) celebrate the best in country music, bringing together fans and artists for an unforgettable night of performances, awards, and memorable moments. The event is renowned for its celebration of country music’s history and its influence on the music industry",
-          "content":[
-            {
-              "name":"We Can Get You There",
-              "description":"If you want to experience the Country Music Awards in person, Jetlevel Aviation can arrange a flight for you to several nearby airports, ensuring you arrive in style and comfort:",
-              "list":[
-                "<span>Nashville International Airport, BNA,<span> Nashville, Tennessee (8 miles)",
-                "<span>Smyrna Airport, MQY,</span> Smyrna, Tennessee (20 miles)",
-                "<span>John C. Tune Airport, JWN,</span> Nashville, Tennessee (10 miles)",
-                "<span>Lebanon Municipal Airport, M54</span>, Lebanon, Tennessee (29 miles)",
-                "<span>Shelbyville Municipal Airport, SYI,</span> Shelbyville, Tennessee (56 miles)"
-              ]
-            },
-            {
-              "name":"What To Expect",
-              "description":"The Country Music Awards is an evening of glitz, glamour, and great music. The event features performances from top country music artists, heartfelt acceptance speeches, and special tributes to legends of the genre. Expect a star-studded red carpet where artists showcase their unique styles. \n The ceremony typically lasts about three hours and includes numerous award presentations in various categories, including Entertainer of the Year, Album of the Year, and New Artist of the Year. The audience is a mix of industry professionals, celebrities, and enthusiastic fans."
-            },
-            {
-              "name":"How It Started",
-              "description":"The Country Music Awards were first held in 1967, organized by the Country Music Association to recognize the achievements of country music artists and promote the genre. The inaugural event was a simple banquet, but it quickly grew in popularity and prestige, becoming one of the most anticipated events in the music industry."
-            },
-            {
-              "name":"Tips For Going",
-              "list":[
-                "<span>Dress Code:</span> The CMA is a formal event. Dress to impress with evening gowns and suits, but add a touch of country flair.",
-                "<span>Arrive Early:</span> Traffic around the venue can be heavy. Arriving early ensures you get a good spot and enjoy the red carpet arrivals.",
-                "<span>Tickets:</span> Purchase your tickets well in advance. The event often sells out quickly.",
-                "<span>Stay Hydrated and Eat:</span> The excitement and long duration can be exhausting. Keep hydrated and have a meal before the event."
-              ]
-            },
-            {
-              "name":"Tips For Going",
-              "list":[
-                "<span>Country Music Hall of Fame and Museum:</span> Explore the history of country music, with exhibits featuring artifacts, recordings, and memorabilia from the genre’s biggest stars.",
-                "<span>Grand Ole Opry:</span> Attend a live show at this historic venue, known as the home of American music.",
-                "<span>The Johnny Cash Museum:</span> A tribute to the legendary Man in Black, featuring artifacts, memorabilia, and interactive exhibits.",
-                "<span>Stay Hydrated and Eat:</span> Enjoy the vibrant nightlife on this famous street, lined with honky-tonks, bars, and live music venues."
-              ],
-              "description":"Experience the magic of the Country Music Awards and immerse yourself in the rich culture of Nashville. Whether you’re a lifelong country music fan or new to the genre, this event is a must-see celebration of talent and tradition."
-            }
-          ]
+          "heading": "New Strategic Partnership with Leading MRO Provider",
+          "image": "/images2/Events-Featured-Images.jpg",
+          "description": "Exciting updates on our latest partnership to enhance maintenance capabilities and service offerings across the region."
         },
         {
-          "heading":"Charter a Private Jet to the US Open Tennis",
-          "image":"https://assets.contento.io/assets/s_01JA0hQj1BcayHdvz8pvEM0GH0/2102390-44043016-1600-900-(1).jpg",
-          "description":"The Country Music Awards (CMA) celebrate the best in country music, bringing together fans and artists for an unforgettable night of performances, awards, and memorable moments. The event is renowned for its celebration of country music’s history and its influence on the music industry",
-          "content":[
-            {
-              "name":"We Can Get You There",
-              "description":"If you want to experience the Country Music Awards in person, Jetlevel Aviation can arrange a flight for you to several nearby airports, ensuring you arrive in style and comfort:",
-              "list":[
-                "<span>Nashville International Airport, BNA,<span> Nashville, Tennessee (8 miles)",
-                "<span>Smyrna Airport, MQY,</span> Smyrna, Tennessee (20 miles)",
-                "<span>John C. Tune Airport, JWN,</span> Nashville, Tennessee (10 miles)",
-                "<span>Lebanon Municipal Airport, M54</span>, Lebanon, Tennessee (29 miles)",
-                "<span>Shelbyville Municipal Airport, SYI,</span> Shelbyville, Tennessee (56 miles)"
-              ]
-            }
-          ]
-        },
-        {
-          "heading":"Charter a Private Jet to the F1 Italian Grand Prix",
-          "image":"https://assets.contento.io/assets/s_01JA0hQj1BcayHdvz8pvEM0GH0/abu-dhabi-grand-prix-start-planetf1.jpg",
-          "description":"The Country Music Awards (CMA) celebrate the best in country music, bringing together fans and artists for an unforgettable night of performances, awards, and memorable moments. The event is renowned for its celebration of country music’s history and its influence on the music industry",
-          "content":[
-            {
-              "name":"We Can Get You There",
-              "description":"If you want to experience the Country Music Awards in person, Jetlevel Aviation can arrange a flight for you to several nearby airports, ensuring you arrive in style and comfort:",
-              "list":[
-                "<span>Nashville International Airport, BNA,<span> Nashville, Tennessee (8 miles)",
-                "<span>Smyrna Airport, MQY,</span> Smyrna, Tennessee (20 miles)",
-                "<span>John C. Tune Airport, JWN,</span> Nashville, Tennessee (10 miles)",
-                "<span>Lebanon Municipal Airport, M54</span>, Lebanon, Tennessee (29 miles)",
-                "<span>Shelbyville Municipal Airport, SYI,</span> Shelbyville, Tennessee (56 miles)"
-              ]
-            }
-          ]
+          "heading": "Expansion of Training Programs",
+          "image": "/images2/andrew-palmer-Jw89Jt1Kjfs-unsplash.jpg",
+          "description": "Launch of new specialized training modules for advanced helicopter operations and maintenance."
         }
       ]
     },
     {
-      "name":"Events September 2024",
-      "content":[
+      "name": "Industry News",
+      "content": [
         {
-          "heading":"Charter a Private Jet to New York Fashion Week",
-          "image":"https://assets.contento.io/assets/s_01JA0hQj1BcayHdvz8pvEM0GH0/charter-a-private-jet-to-new-york-fashion-week-(1).png",
-          "description":"The Country Music Awards (CMA) celebrate the best in country music, bringing together fans and artists for an unforgettable night of performances, awards, and memorable moments. The event is renowned for its celebration of country music’s history and its influence on the music industry",
-          "content":[
-            {
-              "name":"We Can Get You There",
-              "description":"If you want to experience the Country Music Awards in person, Jetlevel Aviation can arrange a flight for you to several nearby airports, ensuring you arrive in style and comfort:",
-              "list":[
-                "<span>Nashville International Airport, BNA,<span> Nashville, Tennessee (8 miles)",
-                "<span>Smyrna Airport, MQY,</span> Smyrna, Tennessee (20 miles)",
-                "<span>John C. Tune Airport, JWN,</span> Nashville, Tennessee (10 miles)",
-                "<span>Lebanon Municipal Airport, M54</span>, Lebanon, Tennessee (29 miles)",
-                "<span>Shelbyville Municipal Airport, SYI,</span> Shelbyville, Tennessee (56 miles)"
-              ]
-            }
-          ]
+          "heading": "Latest Regulatory Changes in Helicopter Operations",
+          "image": "/images/Helicopter Hero.jpg",
+          "description": "Stay updated with the newest EASA and FAA regulations affecting rotorcraft operations."
         },
         {
-          "heading":"Charter a Private Jet to the F1 Singapore Grand Prix",
-          "image":"https://assets.contento.io/assets/s_01JA0hQj1BcayHdvz8pvEM0GH0/3kimiraikkonenhalotestmarch2016-scaled.jpg",
-          "description":"The Country Music Awards (CMA) celebrate the best in country music, bringing together fans and artists for an unforgettable night of performances, awards, and memorable moments. The event is renowned for its celebration of country music’s history and its influence on the music industry",
-          "content":[
-            {
-              "name":"We Can Get You There",
-              "description":"If you want to experience the Country Music Awards in person, Jetlevel Aviation can arrange a flight for you to several nearby airports, ensuring you arrive in style and comfort:",
-              "list":[
-                "<span>Nashville International Airport, BNA,<span> Nashville, Tennessee (8 miles)",
-                "<span>Smyrna Airport, MQY,</span> Smyrna, Tennessee (20 miles)",
-                "<span>John C. Tune Airport, JWN,</span> Nashville, Tennessee (10 miles)",
-                "<span>Lebanon Municipal Airport, M54</span>, Lebanon, Tennessee (29 miles)",
-                "<span>Shelbyville Municipal Airport, SYI,</span> Shelbyville, Tennessee (56 miles)"
-              ]
-            }
-          ]
-        },
-        {
-          "heading":"Charter a Private Jet to the MTV Video Music Awards",
-          "image":"https://assets.contento.io/assets/s_01JA0hQj1BcayHdvz8pvEM0GH0/Charter-a-Private-Jet-to-the-MTV-Video-Music-Awards.jpg",
-          "description":"The Country Music Awards (CMA) celebrate the best in country music, bringing together fans and artists for an unforgettable night of performances, awards, and memorable moments. The event is renowned for its celebration of country music’s history and its influence on the music industry",
-          "content":[
-            {
-              "name":"We Can Get You There",
-              "description":"If you want to experience the Country Music Awards in person, Jetlevel Aviation can arrange a flight for you to several nearby airports, ensuring you arrive in style and comfort:",
-              "list":[
-                "<span>Nashville International Airport, BNA,<span> Nashville, Tennessee (8 miles)",
-                "<span>Smyrna Airport, MQY,</span> Smyrna, Tennessee (20 miles)",
-                "<span>John C. Tune Airport, JWN,</span> Nashville, Tennessee (10 miles)",
-                "<span>Lebanon Municipal Airport, M54</span>, Lebanon, Tennessee (29 miles)",
-                "<span>Shelbyville Municipal Airport, SYI,</span> Shelbyville, Tennessee (56 miles)"
-              ]
-            }
-          ]
-        },
-        {
-          "heading":"Charter a Private Jet to the Air Charter Expo",
-          "image":"https://assets.contento.io/assets/s_01JA0hQj1BcayHdvz8pvEM0GH0/Black-Modern-Car-Racing-News-Youtube-Thumbnail-2.jpg?w=250&dpr=2",
-          "description":"The Country Music Awards (CMA) celebrate the best in country music, bringing together fans and artists for an unforgettable night of performances, awards, and memorable moments. The event is renowned for its celebration of country music’s history and its influence on the music industry",
-          "content":[
-            {
-              "name":"We Can Get You There",
-              "description":"If you want to experience the Country Music Awards in person, Jetlevel Aviation can arrange a flight for you to several nearby airports, ensuring you arrive in style and comfort:",
-              "list":[
-                "<span>Nashville International Airport, BNA,<span> Nashville, Tennessee (8 miles)",
-                "<span>Smyrna Airport, MQY,</span> Smyrna, Tennessee (20 miles)",
-                "<span>John C. Tune Airport, JWN,</span> Nashville, Tennessee (10 miles)",
-                "<span>Lebanon Municipal Airport, M54</span>, Lebanon, Tennessee (29 miles)",
-                "<span>Shelbyville Municipal Airport, SYI,</span> Shelbyville, Tennessee (56 miles)"
-              ]
-            }
-          ]
-        },
-        {
-          "heading":"Charter a Private Jet to the Emmy Awards",
-          "image":"https://assets.contento.io/assets/s_01JA0hQj1BcayHdvz8pvEM0GH0/Black-Modern-Car-Racing-News-Youtube-Thumbnail-3.jpg?w=250&dpr=2",
-          "description":"The Country Music Awards (CMA) celebrate the best in country music, bringing together fans and artists for an unforgettable night of performances, awards, and memorable moments. The event is renowned for its celebration of country music’s history and its influence on the music industry",
-          "content":[
-            {
-              "name":"We Can Get You There",
-              "description":"If you want to experience the Country Music Awards in person, Jetlevel Aviation can arrange a flight for you to several nearby airports, ensuring you arrive in style and comfort:",
-              "list":[
-                "<span>Nashville International Airport, BNA,<span> Nashville, Tennessee (8 miles)",
-                "<span>Smyrna Airport, MQY,</span> Smyrna, Tennessee (20 miles)",
-                "<span>John C. Tune Airport, JWN,</span> Nashville, Tennessee (10 miles)",
-                "<span>Lebanon Municipal Airport, M54</span>, Lebanon, Tennessee (29 miles)",
-                "<span>Shelbyville Municipal Airport, SYI,</span> Shelbyville, Tennessee (56 miles)"
-              ]
-            }
-          ]
-        },
-        {
-          "heading":"Charter a Private Jet to the California International Airshow",
-          "image":"https://assets.contento.io/assets/s_01JA0hQj1BcayHdvz8pvEM0GH0/Black-Modern-Car-Racing-News-Youtube-Thumbnail-4.jpg?w=250&dpr=2",
-          "description":"The Country Music Awards (CMA) celebrate the best in country music, bringing together fans and artists for an unforgettable night of performances, awards, and memorable moments. The event is renowned for its celebration of country music’s history and its influence on the music industry",
-          "content":[
-            {
-              "name":"We Can Get You There",
-              "description":"If you want to experience the Country Music Awards in person, Jetlevel Aviation can arrange a flight for you to several nearby airports, ensuring you arrive in style and comfort:",
-              "list":[
-                "<span>Nashville International Airport, BNA,<span> Nashville, Tennessee (8 miles)",
-                "<span>Smyrna Airport, MQY,</span> Smyrna, Tennessee (20 miles)",
-                "<span>John C. Tune Airport, JWN,</span> Nashville, Tennessee (10 miles)",
-                "<span>Lebanon Municipal Airport, M54</span>, Lebanon, Tennessee (29 miles)",
-                "<span>Shelbyville Municipal Airport, SYI,</span> Shelbyville, Tennessee (56 miles)"
-              ]
-            }
-          ]
+          "heading": "Technological Advancements in Helicopter Maintenance",
+          "image": "/images/riccardo-farinazzo-xESs1Ftu_M4-unsplash.jpg",
+          "description": "Exploring cutting-edge maintenance technologies and their impact on operational efficiency."
         }
       ]
     },
     {
-      "name":"Events October 2024",
-      "content":[
+      "name": "Expert Insights & Opinions",
+      "content": [
         {
-          "heading":"Charter a Private Jet to the Pacific Airshow",
-          "image":"https://assets.contento.io/assets/s_01JA0hQj1BcayHdvz8pvEM0GH0/charter-a-private-jet-to-the-pacific-airshow.png",
-          "description":"The Country Music Awards (CMA) celebrate the best in country music, bringing together fans and artists for an unforgettable night of performances, awards, and memorable moments. The event is renowned for its celebration of country music’s history and its influence on the music industry",
-          "content":[
-            {
-              "name":"We Can Get You There",
-              "description":"If you want to experience the Country Music Awards in person, Jetlevel Aviation can arrange a flight for you to several nearby airports, ensuring you arrive in style and comfort:",
-              "list":[
-                "<span>Nashville International Airport, BNA,<span> Nashville, Tennessee (8 miles)",
-                "<span>Smyrna Airport, MQY,</span> Smyrna, Tennessee (20 miles)",
-                "<span>John C. Tune Airport, JWN,</span> Nashville, Tennessee (10 miles)",
-                "<span>Lebanon Municipal Airport, M54</span>, Lebanon, Tennessee (29 miles)",
-                "<span>Shelbyville Municipal Airport, SYI,</span> Shelbyville, Tennessee (56 miles)"
-              ]
-            }
-          ]
+          "heading": "Future of Advanced Air Mobility",
+          "image": "/images/insung-yoon-j4aEE2dlORU-unsplash.jpg",
+          "description": "Our experts discuss the evolution of urban air mobility and its implications for the industry."
         },
         {
-          "heading":"Charter a Private Jet to the Prix de l’Arc de Triomphe",
-          "image":"https://assets.contento.io/assets/s_01JA0hQj1BcayHdvz8pvEM0GH0/Arc-de-Triomphe.jpg?w=250&dpr=2",
-          "description":"The Country Music Awards (CMA) celebrate the best in country music, bringing together fans and artists for an unforgettable night of performances, awards, and memorable moments. The event is renowned for its celebration of country music’s history and its influence on the music industry",
-          "content":[
-            {
-              "name":"We Can Get You There",
-              "description":"If you want to experience the Country Music Awards in person, Jetlevel Aviation can arrange a flight for you to several nearby airports, ensuring you arrive in style and comfort:",
-              "list":[
-                "<span>Nashville International Airport, BNA,<span> Nashville, Tennessee (8 miles)",
-                "<span>Smyrna Airport, MQY,</span> Smyrna, Tennessee (20 miles)",
-                "<span>John C. Tune Airport, JWN,</span> Nashville, Tennessee (10 miles)",
-                "<span>Lebanon Municipal Airport, M54</span>, Lebanon, Tennessee (29 miles)",
-                "<span>Shelbyville Municipal Airport, SYI,</span> Shelbyville, Tennessee (56 miles)"
-              ]
-            }
-          ]
-        },
-        {
-          "heading":"Charter a Private Jet to the Albuquerque International Balloon Fiesta",
-          "image":"https://assets.contento.io/assets/s_01JA0hQj1BcayHdvz8pvEM0GH0/wp4223673-scaled.jpg?w=250&dpr=2",
-          "description":"The Country Music Awards (CMA) celebrate the best in country music, bringing together fans and artists for an unforgettable night of performances, awards, and memorable moments. The event is renowned for its celebration of country music’s history and its influence on the music industry",
-          "content":[
-            {
-              "name":"We Can Get You There",
-              "description":"If you want to experience the Country Music Awards in person, Jetlevel Aviation can arrange a flight for you to several nearby airports, ensuring you arrive in style and comfort:",
-              "list":[
-                "<span>Nashville International Airport, BNA,<span> Nashville, Tennessee (8 miles)",
-                "<span>Smyrna Airport, MQY,</span> Smyrna, Tennessee (20 miles)",
-                "<span>John C. Tune Airport, JWN,</span> Nashville, Tennessee (10 miles)",
-                "<span>Lebanon Municipal Airport, M54</span>, Lebanon, Tennessee (29 miles)",
-                "<span>Shelbyville Municipal Airport, SYI,</span> Shelbyville, Tennessee (56 miles)"
-              ]
-            }
-          ]
-        },
-        {
-          "heading":"Charter a Private Jet to the American Music Awards",
-          "image":"https://assets.contento.io/assets/s_01JA0hQj1BcayHdvz8pvEM0GH0/American-Music-Awards-event.webp?w=250&dpr=2",
-          "description":"The Country Music Awards (CMA) celebrate the best in country music, bringing together fans and artists for an unforgettable night of performances, awards, and memorable moments. The event is renowned for its celebration of country music’s history and its influence on the music industry",
-          "content":[
-            {
-              "name":"We Can Get You There",
-              "description":"If you want to experience the Country Music Awards in person, Jetlevel Aviation can arrange a flight for you to several nearby airports, ensuring you arrive in style and comfort:",
-              "list":[
-                "<span>Nashville International Airport, BNA,<span> Nashville, Tennessee (8 miles)",
-                "<span>Smyrna Airport, MQY,</span> Smyrna, Tennessee (20 miles)",
-                "<span>John C. Tune Airport, JWN,</span> Nashville, Tennessee (10 miles)",
-                "<span>Lebanon Municipal Airport, M54</span>, Lebanon, Tennessee (29 miles)",
-                "<span>Shelbyville Municipal Airport, SYI,</span> Shelbyville, Tennessee (56 miles)"
-              ]
-            }
-          ]
+          "heading": "Best Practices in Helicopter Safety Management",
+          "image": "/images/angel-ceballos-vTMZ2zbsLvI-unsplash.jpg",
+          "description": "Industry-leading insights on enhancing safety protocols in rotorcraft operations."
         }
       ]
     },
     {
-      "name":"Events November 2024",
-      "content":[
+      "name": "Project Highlights",
+      "content": [
         {
-          "heading":"Charter a Private Jet to the F1 Brazilian Grand Prix",
-          "image":"https://assets.contento.io/assets/s_01JA0hQj1BcayHdvz8pvEM0GH0/George-Russell-GP-Brazil-11122022.jpg",
-          "description":"The Country Music Awards (CMA) celebrate the best in country music, bringing together fans and artists for an unforgettable night of performances, awards, and memorable moments. The event is renowned for its celebration of country music’s history and its influence on the music industry",
-          "content":[
-            {
-              "name":"We Can Get You There",
-              "description":"If you want to experience the Country Music Awards in person, Jetlevel Aviation can arrange a flight for you to several nearby airports, ensuring you arrive in style and comfort:",
-              "list":[
-                "<span>Nashville International Airport, BNA,<span> Nashville, Tennessee (8 miles)",
-                "<span>Smyrna Airport, MQY,</span> Smyrna, Tennessee (20 miles)",
-                "<span>John C. Tune Airport, JWN,</span> Nashville, Tennessee (10 miles)",
-                "<span>Lebanon Municipal Airport, M54</span>, Lebanon, Tennessee (29 miles)",
-                "<span>Shelbyville Municipal Airport, SYI,</span> Shelbyville, Tennessee (56 miles)"
-              ]
-            }
-          ]
+          "heading": "Successful Implementation of New Safety System",
+          "image": "/images/ibrahim-rifath-5KwAqo39p9k-unsplash.jpg",
+          "description": "Behind-the-scenes look at our recent safety management system implementation project."
+        },
+        {
+          "heading": "International Training Program Completion",
+          "image": "/images/austin-neill-4pHcmcPsP8A-unsplash.jpg",
+          "description": "Highlights from our recently completed international training initiative."
         }
       ]
     },
     {
-      "name":"Events December 2024",
-      "content":[
+      "name": "Training & Events",
+      "content": [
         {
-          "heading":"Charter a Private Jet to the F1 Abu Dhabi Grand Prix",
-          "image":"https://assets.contento.io/assets/s_01JA0hQj1BcayHdvz8pvEM0GH0/abu-dhabi-grand-prix-start-planetf1.jpg",
-          "description":"The Country Music Awards (CMA) celebrate the best in country music, bringing together fans and artists for an unforgettable night of performances, awards, and memorable moments. The event is renowned for its celebration of country music’s history and its influence on the music industry",
-          "content":[
-            {
-              "name":"We Can Get You There",
-              "description":"If you want to experience the Country Music Awards in person, Jetlevel Aviation can arrange a flight for you to several nearby airports, ensuring you arrive in style and comfort:",
-              "list":[
-                "<span>Nashville International Airport, BNA,<span> Nashville, Tennessee (8 miles)",
-                "<span>Smyrna Airport, MQY,</span> Smyrna, Tennessee (20 miles)",
-                "<span>John C. Tune Airport, JWN,</span> Nashville, Tennessee (10 miles)",
-                "<span>Lebanon Municipal Airport, M54</span>, Lebanon, Tennessee (29 miles)",
-                "<span>Shelbyville Municipal Airport, SYI,</span> Shelbyville, Tennessee (56 miles)"
-              ]
-            }
-          ]
+          "heading": "Upcoming Maintenance Workshop Series",
+          "image": "/images/scott-graham-5fNmWej4tAA-unsplash.jpg",
+          "description": "Register for our comprehensive maintenance training workshops starting next month."
+        },
+        {
+          "heading": "Virtual Safety Symposium 2024",
+          "image": "/images/noaa-bq7t5GdDCLc-unsplash.jpg",
+          "description": "Join our online symposium featuring industry experts discussing latest safety trends."
         }
       ]
     }

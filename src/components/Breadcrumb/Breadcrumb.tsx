@@ -15,50 +15,8 @@ const Breadcrumb: React.FC = () => {
 
   // Rewrite mappings (including dynamic routes)
   const rewriteMapping: { [key: string]: string; } = {
-    '/our-services/on-demand-charter': '/private-jet-charter',
-    '/our-services/group-charter': '/group-charter-flight',
-    '/our-services/air-ambulance': '/medical-flight-transport',
-    '/our-services/helicopter': '/Helicopter-Charter-Flight',
-    '/jet-charter/us-canada': '/us-canada-chartered-cities',
-    '/jet-charter/cities/boston-ma': '/boston-private-jet-charter-flights',
-    '/jet-charter/cities/los-angeles': '/charter-flights-los-angeles',
-    '/jet-charter/cities/miami': '/private-jet-charter-miami',
-    '/jet-charter/cities/van-nuys': '/private-jet-charter-van-nuys',
-    '/jet-charter/cities/teterboro': '/private-jet-charter-teterboro',
-    '/jet-charter/cities/nashville': '/private-jet-charter-nashville',
-    '/jet-charter/cities/dallas': '/private-jet-charter-dallas',
-    '/jet-charter/cities/chicago': '/private-jet-charter-chicago',
-    '/jet-charter/cities/naples': '/private-jet-charter-naples',
-    '/jet-charter/cities/las-vegas': '/private-jet-charter-to-las-vegas',
-    '/jet-charter/cities/:location': '/private-jet-charter-flights-to-:location',
-    '/jet-charter/us-canada/:location': '/private-jet-charter-flights-to-:location',
-    '/jet-charter/international': '/international-chartered-cities',
-    '/jet-charter/international/:location': '/private-jet-charter-flights-to-:location',
-    '/jet-charter/popular-routes': '/popular-routes',
-    '/jet-charter/popular-routes/:location': '/private-jet-charter-:location',
-    '/jet-charter/empty-legs': '/empty-leg-flights',
-    '/jet-charter/empty-legs/:location': '/empty-leg-flights-:location',
-    '/charter-resources/private-jet-airports': '/usa-airport-directory',
-    '/charter-resources/aircraft-types': '/aircraft-charters',
-    '/charter-resources/cost-estimator': '/charter-flights-cost-calculator',
-    '/charter-resources/flight-tracker': '/flight-tracker',
-    '/charter-resources/distance-calculator': '/distance-calculator',
-    '/company/about-us': '/about-jet-level',
-    '/company/contact-us': '/contact-us',
-    '/company/blog': '/blog',
-    '/company/our-team': '/our-team',
-    '/faq': '/private-jet-frequently-asked-questions',
-    '/pricing': '/cost-of-chartering-a-private-jet',
-    '/industory-charter': '/industry-specific-charter',
-    '/events': '/events',
-    '/events/:location': '/events/:location',
-    '/request-quote': '/request-a-quote',
-    '/instant-qoute': '/instant-private-jet-quotes',
-    '/industory-charter/:location': '/industry-specific-charter/:location',
-    '/charter-resources/airports-aircrafts/:location': '/:location',
-    '/charter-resources/private-jet-airports/:location': '/:location',
-    '/charter-resources/aircraft-types/:location': '/:location',
-    '/company/blog/:location': '/:location',
+    '/our-services/on-demand-charter': '/',
+    
   };
 
   // Helper function to apply rewrite rules based on dynamic segments
@@ -159,9 +117,7 @@ const Breadcrumb: React.FC = () => {
         hrefArray.map((segment, index) => {
           let hrefPath;
           if (baseSegment == "events" || baseSegment == "industory-charter" || baseSegment == "pricing" || baseSegment == "request-quote" || baseSegment == "instant-qoute" || baseSegment == "faq") {
-            hrefPath = `/${[
-              ...hrefArray.slice(0, index + 1),
-            ].join("/")}`;
+            hrefPath = "/";
           } else {
             hrefPath = `/${[
               baseSegment,
@@ -181,7 +137,7 @@ const Breadcrumb: React.FC = () => {
           return (
             <div key={`${hrefPath}-${index}`} className="flex items-center">
               <Link
-                href={rewrittenHref}
+                href={"/"}
                 className={`${styles.breadcrumbLink} whitespace-nowrap py-2 pl-7 pr-3`}
                 style={{ zIndex: zIndex }}
               >

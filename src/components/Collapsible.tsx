@@ -3,63 +3,59 @@
 import React, { ReactNode } from "react";
 import { FiPlus } from "react-icons/fi";
 
-interface FAQDropdownProps {
+interface CollapsibleProps {
   question: string;
-  answer: string | ReactNode;
-  iconStyle?: "caret" | "arrow";
-  iconPosition?: "start" | "end";
-  isOpen?: boolean;
-  onClick?: () => void;
-  backgroundColor?: string;
+  isOpen: boolean;
+  onClick: () => void;
+  answer?: string;
+  children?: ReactNode;
+  iconStyle?: string;
+  iconPosition?: string;
   classNames?: string;
-  answerClassName?: string;
-  questionClassName?: string;
-  iconColor?: string;
-  isfaq?: boolean;
 }
 
-const FAQDropdown: React.FC<FAQDropdownProps> = ({
+const Collapsible: React.FC<CollapsibleProps> = ({
   question,
-  answer,
-  iconPosition = "end",
   isOpen,
   onClick,
-  backgroundColor,
+  answer,
+  children,
+  iconStyle,
+  iconPosition,
   classNames,
-  answerClassName,
-  questionClassName,
-  iconColor,
-  isfaq = false
 }) => {
   return (
-    <div className='border-b py-5'>
+    <div className={`border-b py-5 ${classNames || ""}`}>
       <div
         onClick={onClick}
-        className={`${classNames || ""} flex items-center cursor-pointer ${
-          iconPosition === "end" ? "justify-between" : "justify-start"
-        } bg-[${backgroundColor}] ${isfaq ? '':"py-4"} pr-5 text-white font-bold`}
+        className="flex items-center cursor-pointer justify-between p-5 rounded-lg bg-white transition-colors duration-200"
       >
-        {
-          isfaq ? <h3 className={`transition-colors duration-200 m-0 ${isOpen ? 'text-blue' : 'text-darkBlue group-hover:text-blue'} ${questionClassName}`}>{question}</h3> : <h2 className={`transition-colors duration-200 leading-[46px] ${isOpen ? 'text-blue' : 'text-darkBlue group-hover:text-blue'} ${questionClassName}`}>{question}</h2>
-        }
-        
-          <span className={`transition-all duration-200 border-2 rounded-full ${isOpen ? 'rotate-45 text-blue border-blue' : 'text-darkBlue border-darkBlue group-hover:text-blue group-hover:border-blue'}`}>
-            <FiPlus className={`w-7 h-7 ${iconColor}`} />
-          </span>
+        <h2
+          className={`text-lg font-semibold ${
+            isOpen ? "text-blue-600" : "text-darkBlue hover:text-blue-600"
+          }`}
+        >
+          {question}
+        </h2>
+        <span
+          className={`border-2 border-current rounded-full p-1 transition-transform duration-200 ${
+            isOpen
+              ? "rotate-45 text-blue-600 border-blue-600"
+              : "text-darkBlue border-darkBlue hover:text-blue-600 hover:border-blue-600"
+          }`}
+        >
+          <FiPlus className="w-6 h-6" />
+        </span>
       </div>
       <div
         className={`transition-all duration-300 overflow-hidden ease-in-out ${
-          isOpen ? "p-[6px_20px_31px_0px]" : "max-h-0 p-0"
-        } ${answerClassName || ""} text-[#555] `}
+          isOpen ? "max-h-screen p-5 opacity-100" : "max-h-0 p-0 opacity-0"
+        }`}
       >
-        {typeof answer === "string" ? (
-          <p className="text-md ">{answer}</p>
-        ) : (
-          answer
-        )}
+        {children || answer}
       </div>
     </div>
   );
 };
 
-export default FAQDropdown;
+export default Collapsible;
