@@ -16,25 +16,25 @@ const PopularPrivateJetCharters: React.FC<PopularPrivateJetChartersProps> = ({
       imageLink: "/images/Miami Hero Image.jpg",
       name: "Crew Resourcing",
       altText: "Skilled aviation crew for offshore operations",
-      pageLink: "/crew-resourcing",
+      pageLink: "/",
     },
     {
       imageLink: "/images/Las Vegas Hero Image.jpg",
       name: "Operational Support",
       altText: "Round-the-clock aviation operations center",
-      pageLink: "/operational-support",
+      pageLink: "/",
     },
     {
       imageLink: "/images/Los Angeles Hero Image.jpg",
       name: "VIP Transport Solutions",
       altText: "Executive helicopter transport services",
-      pageLink: "/vip-transport",
+      pageLink: "/",
     },
     {
       imageLink: "/images/New York Hero Image.jpg",
       name: "Emergency Services",
       altText: "Air ambulance and emergency response team",
-      pageLink: "/emergency-services",
+      pageLink: "/",
     },
   ];
   return (
@@ -65,7 +65,7 @@ const PopularPrivateJetCharters: React.FC<PopularPrivateJetChartersProps> = ({
         ))}
       </div>
       <Link
-        href="/aviation-solutions"
+        href="/"
         className="text-white px-10 py-2 my-2 rounded-full text-lg bg-gradient-to-r from-[#59a6c8] via-[#6cc3e8] to-[#4f94b8] transition-all ease-linear hover:-translate-y-1 hover:shadow-card_shadow"
       >
         Explore All Solutions

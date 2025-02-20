@@ -130,7 +130,7 @@ const AvailableAircrafts = ({
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center md:justify-start text-xs md:text-sm gap-3">
                 <Link
-                  href="/aviation-solutions"
+                  href="/"
                   className="text-white px-3 py-2 md:py-3 min-w-fit w-2/5 md:w-[35%] rounded-full bg-gradient-to-r from-[#59a6c8] via-[#6cc3e8] to-[#4f94b8] transition-all ease-linear hover:-translate-y-1 text-center text-xs sm:text-sm hover:shadow-card_shadow"
                 >
                   REQUEST SOLUTION →

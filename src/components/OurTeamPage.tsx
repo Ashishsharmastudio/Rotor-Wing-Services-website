@@ -57,7 +57,7 @@ const OurTeamPage = () => {
             </p>
             <div className="flex gap-x-[30px] mt-[30px]">
               <Link
-                href={"https://www.linkedin.com/in/ricky-gomulka-98879212/"}
+                href={"https://www.linkedin.com/"}
               >
                 <Linkedin className="w-[30px] bg-black rounded-full h-[30px] p-[5px] social-icons hover:bg-white" />
               </Link>
@@ -80,7 +80,7 @@ const OurTeamPage = () => {
               market ensure operational excellence and client satisfaction.
             </p>
             <div className="flex gap-x-[30px] mt-[30px]">
-              <Link href={"https://www.linkedin.com/in/kevin-g-b-50a29327/"}>
+              <Link href={"https://www.linkedin.com/"}>
                 <Linkedin className="w-[30px] bg-black rounded-full h-[30px] p-[5px] social-icons hover:bg-white" />
               </Link>
             </div>
@@ -105,7 +105,7 @@ const OurTeamPage = () => {
               operations forRWS Aviation.
             </p>
             <div className="flex gap-x-[30px] mt-[30px]">
-              <Link href={"https://www.linkedin.com/in/erin-melder-50a538b9/"}>
+              <Link href={"https://www.linkedin.com/"}>
                 <Linkedin className="w-[30px] bg-black rounded-full h-[30px] p-[5px] social-icons hover:bg-white" />
               </Link>
             </div>

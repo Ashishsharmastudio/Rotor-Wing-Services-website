@@ -22,7 +22,7 @@ const OurOffices = () => {
                 Dubai, UAE
               </a>
               <br />
-              <a href="tel:+97142234567">+971 4 223 4567</a>
+              <a href="tel:+00000000007">+00000000</a>
             </p>
           </div>
 
@@ -58,7 +58,7 @@ const OurOffices = () => {
                 Singapore
               </a>
               <br />
-              <a href="tel:+6565123456">+65 6512 3456</a>
+              <a href="tel:00000000">+000000000</a>
             </p>
           </div>
         </div>

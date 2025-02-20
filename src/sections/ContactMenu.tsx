@@ -33,7 +33,7 @@ const ContactMenu = () => {
       <div className="max-w-[1800px] mx-auto px-0 md:px-10 lg:px-20 grid grid-cols-3 gap-1">
         <a
           className="flex items-center justify-center gap-2 group bg-[#ebecee] text-xs md:text-base font-bold md:font-normal !text-gray-800 py-2 text-center hover:!text-blue transition-all duration-100"
-          href={"tel:+91 9140585097"}
+          href={"tel:+000000000"}
         >
           <IoCall className="hidden md:block text-2xl" />
           <span className="!text-[#1F2937] !font-[400] group-hover:!text-blue">
@@ -42,7 +42,7 @@ const ContactMenu = () => {
         </a>
         <a
           className="flex items-center justify-center gap-2 group bg-[#ebecee] text-xs md:text-base font-bold md:font-normal !text-gray-800 py-2 text-center hover:!text-blue transition-all duration-100"
-          href={"mailto:Sales@jetlevel.com"}
+          href={"mailto:info@rotorwingservices.com"}
         >
           <IoMail className="hidden md:block text-2xl" />
           <span className="!text-[#1F2937] !font-[400] group-hover:!text-blue">
