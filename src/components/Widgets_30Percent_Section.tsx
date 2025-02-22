@@ -29,48 +29,7 @@ const Widgets_30Percent_Section: React.FC<Widgets_30Percent_SectionProps> = ({ w
         <TopCharteredCities
           //   title="Top USA Chartered Cities"
           title={widgetTitle}
-          //   cities={[
-          //     {
-          //       name: 'Van Nuys',
-          //       link: '/private-jet-charter-flights-to-van-nuys-ca/'
-          //     },
-          //     {
-          //       name: 'Los Angeles',
-          //       link: '/private-jet-charter-flights-to-los-angeles-ca'
-          //     },
-          //     {
-          //       name: 'Miami',
-          //       link: '/private-jet-miami/'
-          //     },
-          //     {
-          //       name: 'Chicago',
-          //       link: '/private-jet-chicago/'
-          //     },
-          //     {
-          //       name: 'Dallas',
-          //       link: '/private-jet-charter-flights-to-dallas-tx'
-          //     },
-          //     {
-          //       name: 'Las Vegas',
-          //       link: '/private-jet-charter-flights-to-las-vegas-nv'
-          //     },
-          //     {
-          //       name: 'San Francisco',
-          //       link: '/private-jet-charter-flights-to-san-francisco-ca/'
-          //     },
-          //     {
-          //       name: 'Nashville',
-          //       link: '/private-jet-charter-flights-to-nashville-tn/'
-          //     },
-          //     {
-          //       name: 'Seattle',
-          //       link: '/private-jet-charter-flights-to-seattle-wa/'
-          //     },
-          //     {
-          //       name: 'Teterboro',
-          //       link: '/private-jet-charter-flights-to-teterboro-nj'
-          //     },
-          //   ]}
+          
           cities={widgetContent}
           buttonLink={widgetButtonLink}
         />

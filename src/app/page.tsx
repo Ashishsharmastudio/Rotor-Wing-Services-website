@@ -9,7 +9,6 @@ import FourMetrics from "@/sections/FourMetrics";
 import SmartTravelTools from "@/sections/SmartTravelTools";
 import OurComitment from "@/sections/OurComitment";
 import PopularPrivateJetCharters from "@/sections/PopularPrivateJetCharters";
-import MeetOwner from "@/sections/MeetOwner";
 import AvailableAircrafts from "@/sections/AvailableAircrafts";
 import WhatOurClientsSay from "@/sections/WhatOurClientsSay";
 import Faqs from "@/sections/Faqs";
@@ -79,7 +78,6 @@ export default function Home() {
       <ExclusiveServices />
       <OurOffices />
       <CharterProcessSteps />
-        <MeetOwner />
       <SmartTravelTools />
       <OurComitment />
       <PopularPrivateJetCharters />
