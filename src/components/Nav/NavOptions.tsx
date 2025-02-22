@@ -3,7 +3,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FaChevronDown } from "react-icons/fa";
 import NavClickedContent from "./NavClickedContent";
-import AboutUsPage from "../AboutUsPage";
 import Link from "next/link";
 
 function NavOptions() {
@@ -68,13 +67,7 @@ function NavOptions() {
         Our Team
       </Link>
 
-      {/* Training Link */}
-      <Link
-        href="/"
-        className="flex items-center text-white text-nowrap hover:text-blue transition-all duration-100 text-[16px]"
-      >
-        Training
-      </Link>
+      
 
       {/* Resources Dropdown */}
       <Link

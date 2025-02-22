@@ -75,13 +75,7 @@ function NavbarDropdown() {
           OUR TEAM
         </Link>
 
-        <Link
-          href="/"
-          onClick={closeDropdown}
-          className="text-white text-sm font-bold"
-        >
-          TRAINING
-        </Link>
+     
 
         <Link
           href="/Latest-News"

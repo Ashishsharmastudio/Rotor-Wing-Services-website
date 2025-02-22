@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 import Collapsible from "@/components/Collapsible";
-import HalfSection from "@/components/HalfSection";
 import Hero from "@/sections/Hero";
 import BrandNames from "@/sections/BrandNames";
+import Breadcrumb from "../../components/Breadcrumb/Breadcrumb";
 
 
 const ServicesPage = () => {
@@ -101,52 +101,56 @@ const servicesData = [
       {/* Brand Section */}
       <BrandNames />
 
+      <section className="flex flex-col lg:flex-row gap-10 px-5 md:px-10 lg:px-20 py-7 pb-0 max-w-[1800px] mx-auto">
+        <Breadcrumb />
+      </section>
+
       {/* Services Section */}
-      <HalfSection showBottomContent={true}>
-        <div className="flex flex-col justify-center gap-y-[20px] pt-8">
-          <div className="max-w-[1800px] mx-auto w-full">
-            {servicesData.map((service, index) => (
-              <Collapsible
-                key={index}
-                question={service.title}
-                isOpen={openIndex === index}
-                onClick={() => handleToggle(index)}
-              >
-                <div className="mb-8">
-                  <p className="leading-7 text-[16px] text-[#727982] mb-4">
-                    {service.description}
+
+      <div className="flex flex-col justify-center gap-y-[20px] pt-8">
+        <div className="flex-1 text-center max-w-[1800px] mx-auto w-full">
+          <h2 className=" font-bold text-darkBlue mb-6">Rotor Wing Services</h2>
+          {servicesData.map((service, index) => (
+            <Collapsible
+              key={index}
+              question={service.title}
+              isOpen={openIndex === index}
+              onClick={() => handleToggle(index)}
+            >
+              <div className="mb-8">
+                <p className="leading-7 text-[16px] text-[#727982] mb-4">
+                  {service.description}
+                </p>
+
+                {/* Render list items if available */}
+                {service.items && (
+                  <ul className="space-y-3">
+                    {service.items.map((item, itemIndex) => (
+                      <li key={itemIndex} className="flex items-start">
+                        <span className="text-blue-500 mr-2">✔</span>
+                        <p className="text-[#727982] leading-7">{item}</p>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+
+                {/* Contact Link */}
+                <div className="bg-blue-100 p-4 rounded-lg mt-4">
+                  <p className="text-darkBlue font-semibold">
+                    Get in touch:{" "}
+                    <a
+                      href={`mailto:${service.link}`}
+                      className="text-blue-600 hover:text-blue-800 transition-colors"
+                    >
+                      {service.link}
+                    </a>
                   </p>
-
-                  {/* Render list items if available */}
-                  {service.items && (
-                    <ul className="space-y-3">
-                      {service.items.map((item, itemIndex) => (
-                        <li key={itemIndex} className="flex items-start">
-                          <span className="text-blue-500 mr-2">✔</span>
-                          <p className="text-[#727982] leading-7">{item}</p>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-
-                  {/* Contact Link */}
-                  <div className="bg-blue-100 p-4 rounded-lg mt-4">
-                    <p className="text-darkBlue font-semibold">
-                      Get in touch:{" "}
-                      <a
-                        href={`mailto:${service.link}`}
-                        className="text-blue-600 hover:text-blue-800 transition-colors"
-                      >
-                        {service.link}
-                      </a>
-                    </p>
-                  </div>
                 </div>
-              </Collapsible>
-            ))}
-          </div>
+              </div>
+            </Collapsible>
+          ))}
         </div>
-      </HalfSection>
+      </div>
     </div>
   );
 };

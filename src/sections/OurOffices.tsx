@@ -22,45 +22,10 @@ const OurOffices = () => {
                 Dubai, UAE
               </a>
               <br />
-              <a href="tel:+00000000007">+00000000</a>
+              
             </p>
           </div>
 
-          {/* London Office */}
-          <div className="text-left">
-            <div className="flex justify-center items-center mb-4 bg-blue w-20 lg:w-28 h-20 lg:h-28 rounded-full">
-              <OurOfficesSvg />
-            </div>
-            <h3 className="font-bold text-3xl">London</h3>
-            <p className="mt-3 text-lg">
-              <a href="https://maps.app.goo.gl/example-london">
-                Aviation House, Gatwick Airport
-                <br />
-                London, UK
-              </a>
-              <br />
-              <a href="tel:+441293456789">+44 1293 456 789</a>
-            </p>
-          </div>
-        </div>
-
-        {/* Second Row - Singapore (Hidden on mobile) */}
-        <div className="hidden md:flex md:flex-row gap-10 md:gap-14 mt-14">
-          <div className="lg:w-1/2 text-left">
-            <div className="flex justify-center items-center mb-4 bg-blue w-20 lg:w-28 h-20 lg:h-28 rounded-full">
-              <OurOfficesSvg />
-            </div>
-            <h3 className="font-bold text-3xl">Singapore</h3>
-            <p className="mt-3 text-lg">
-              <a href="https://maps.app.goo.gl/example-singapore">
-                20 Changi Airport Blvd
-                <br />
-                Singapore
-              </a>
-              <br />
-              <a href="tel:00000000">+000000000</a>
-            </p>
-          </div>
         </div>
       </div>
     </section>
