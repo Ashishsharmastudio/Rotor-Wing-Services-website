@@ -2,7 +2,6 @@ import React from "react";
 import ContactUsForm from "../../components/ContactUsForm";
 import Breadcrumb from "../../components/Breadcrumb/Breadcrumb";
 import BrandNames from "@/sections/BrandNames";
-import SmartTravelTools from "@/sections/SmartTravelTools";
 import PopularPrivateJetCharters from "@/sections/PopularPrivateJetCharters";
 
 const ContactUsPage = () => {
@@ -92,7 +91,7 @@ const ContactUsPage = () => {
         </div>
       </div>
 
-      <SmartTravelTools />
+     
       <PopularPrivateJetCharters />
     </>
   );

@@ -85,6 +85,95 @@ const servicesData = [
     ],
     link: "rotorwingacademy.com",
   },
+  {
+    title: "Maintenance & Technical Support",
+    description:
+      "We offer comprehensive technical support for helicopter maintenance operations worldwide. Our services ensure that your fleet remains operational, compliant, and safe, whether in the field or in the hangar.",
+    items: [
+      "Deployment of qualified maintenance teams worldwide for Line and Base Maintenance",
+      "Extensive experience with civil, HEMS, SAR, offshore, and government-operated rotary-wing aircraft",
+      "Aircraft Acceptance from OEMs - including technical inspections, documentation review, and delivery coordination",
+      "Lease Acceptance & Redelivery Support - records audits, physical inspections, and compliance verification",
+      "Pre-Purchase, Delivery & Return Inspections",
+      "Maintenance Oversight",
+      "AOG and Remote Field Support",
+    ],
+    link: "info@rotorwingservices.com",
+  },
+  {
+    title: "Maintenance Organization & Infrastructure Development",
+    description:
+      "We provide end-to-end support for establishing and upgrading maintenance organizations and infrastructure. From planning new facilities to achieving regulatory certification, we help you build a foundation for operational excellence.",
+    items: [
+      "Complete setup of AMO, CAMO, and MCC units",
+      "Facility planning - hangars, workshops, MCC rooms, vertiports, and helipads",
+      "Construction coordination - contractor sourcing, technical supervision, and regulatory compliance",
+      "Support for NCAA certification from concept through final approval",
+      "Support through our extensive network of Part 21 Design Organizations (DOA) for design changes, modifications, and STC development",
+    ],
+    link: "info@rotorwingservices.com",
+  },
+  {
+    title: "Compliance & Regulatory Assurance",
+    description:
+      "Navigate the complex landscape of aviation regulations with confidence. Our experts provide auditing, compliance reviews, and support to ensure your operations meet and exceed international and national standards.",
+    items: [
+      "Audit services across multiple authorities including:\n  - FAA (14 CFR Parts 21, 43, 65, 91, 135, 145, 147)\n  - EASA (Parts 21, 66, 145, 147)\n  - GCAA, GACA, and other international NCAAs",
+      "Compliance review of MOEs, Exposition Manuals, and Procedures",
+      "Internal/External audits, inspection readiness, and CAP/RCA support",
+      "Integration of Safety Management (SMS) and Quality Systems (QMS)",
+    ],
+    link: "info@rotorwingservices.com",
+  },
+  {
+    title: "MRO Optimization & Project Management",
+    description:
+      "Enhance the efficiency and effectiveness of your Maintenance, Repair, and Overhaul (MRO) operations. We apply proven methodologies and project management expertise to streamline workflows, control costs, and drive performance.",
+    items: [
+      "Workflow streamlining using Lean Six Sigma",
+      "Maintenance scheduling and planning systems",
+      "Reliability analysis, cost control, and KPI reporting tools",
+      "Project management for MRO upgrades and organizational transitions",
+    ],
+    link: "info@rotorwingservices.com",
+  },
+  {
+    title: "Training & Professional Development (via Rotor Wing Academy)",
+    description:
+      "In partnership with Rotor Wing Academy, we offer a wide range of training solutions to empower your team. From technical courses to leadership development, our programs are designed to foster excellence and ensure compliance.",
+    items: [
+      "General Familiarization & Type Courses (Bell, AW, Airbus, Sikorsky, Mil)",
+      "Mandatory training: Human Factors, SMS, QMS, and NCAA compliance",
+      "Leadership programs from supervisory to executive levels",
+      "Customized development programs for MROs and operators",
+    ],
+    link: "rotorwingacademy.com",
+  },
+  {
+    title: "Manpower & Talent Solutions (via Rotor Wing Team)",
+    description:
+      "Through Rotor Wing Team, we provide flexible and reliable manpower solutions. We connect you with highly skilled aviation professionals for short-term projects, long-term assignments, and permanent roles across the globe.",
+    items: [
+      "Global sourcing of licensed engineers, A&P mechanics, IA inspectors for annuals, CAMO, QA, MCC, and field support staff",
+      "Capability to deploy both licensed and unlicensed maintenance personnel based on project needs",
+      "Specialized support for HEMS, SAR, Offshore, and Government missions",
+      "Competency assessments and short/long-term staffing",
+      "Interim leadership and technical contract solutions",
+    ],
+    link: "info@rotorwingservices.com",
+  },
+  {
+    title: "Digital Solutions & Innovation",
+    description:
+      "Leverage the power of technology to transform your operations. We provide cutting-edge digital solutions, from predictive maintenance platforms to advanced analytics, to help you innovate and stay ahead.",
+    items: [
+      "Predictive Maintenance & Risk Platforms (AeroGuardian)",
+      "MRO Analytics & Workflow Optimization (MROlytics)",
+      "Consulting on digital transformation and system integration",
+      "Custom dashboards and performance intelligence tools",
+    ],
+    link: "info@rotorwingservices.com",
+  },
 ];
 
 

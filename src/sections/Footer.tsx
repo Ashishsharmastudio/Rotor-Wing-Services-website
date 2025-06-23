@@ -81,14 +81,13 @@ const Footer = () => {
         {/* Logo section remains unchanged */}
         <div className="pb-4 flex flex-col justify-between w-fit mx-auto min-[1180px]:w-full min-[1180px]:m-0 min-[1180px]:flex-row gap-5">
           <div className="mb-4 min-[1180px]:mb-8">
-            {/* <Image
-              src="/images/Logo.png" // Original image kept
+            <Image
+              src="/Logo 2.PNG"
               alt="Rotor Wing Services Logo"
-              width={790}
-              height={142}
+              width={200}
+              height={50}
               className="md:w-72 max-w-72 mx-auto h-auto"
-            /> */}
-            <h1>RWS</h1>
+            />
           </div>
           {/* Social icons remain unchanged */}
           <div className="flex flex-col lg:flex-row gap-7">
@@ -164,7 +163,7 @@ const Footer = () => {
         <div className="max-w-[1800px] mx-auto flex flex-col lg:flex-row text-[#f0f1f2] gap-5 mt-8 py-4">
           <div className="flex items-center justify-start gap-3">
             <div className="flex gap-5 flex-col text-[11px]">
-              <div>&copy; 2025 RWS Aviation LLC</div>
+              <div>&copy; 2025 Rotor Wing Services Limited</div>
               <div className="flex flex-row gap-3 lg:mx-0">
                 <Link href="/privacy-policy" className="hover:text-blue">
                   Privacy
@@ -175,13 +174,14 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <p className="flex-1 text-[#858585] text-[9px]">
-            Rotor Wing Services maintains EASA Part 145, FAA 14 CFR Part 145,
-            and GCAA CAR 21 certifications. All operations comply with ICAO
-            Annex 6 standards and military aviation requirements under
-            MIL-STD-882. Training programs delivered in accordance with EASA
-            Part 66 and FAA CFR Part 147 regulations.
-          </p>
+          <div className="flex-1 text-[#858585] text-[9px] flex flex-col gap-2">
+            <p>
+              Rotor Wing Services and its divisions, Rotor Wing Academy, Rotor Wing Team, MROlytics, and AeroGuardian, are registered trademarks of JavAirTec Holding Group.
+            </p>
+            <p>
+              Rotor Wing Services maintains EASA Part 145, FAA 14 CFR Part 145, and GCAA CAR 21 certifications. All operations comply with ICAO Annex 6 standards and military aviation requirements under MIL-STD-882. Training programs delivered in accordance with EASA Part 66 and FAA CFR Part 147 regulations.
+            </p>
+          </div>
         </div>
       </div>
     </section>

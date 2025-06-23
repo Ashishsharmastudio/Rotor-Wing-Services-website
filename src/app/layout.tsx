@@ -105,11 +105,11 @@ export default function RootLayout({
         />
         {/* End BBB Seal Script */}
 
-        {/* Google maps */}
+        {/* Google maps
         <Script
           src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}`}
           strategy="beforeInteractive"
-        />
+        /> */}
 
         <Nav />
         {children}

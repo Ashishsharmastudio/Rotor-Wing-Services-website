@@ -30,7 +30,16 @@ const config: Config = {
 			card_shadow: '0px 5px 12px 0px rgb(0,0,0,0.4)',
 			card_shadow_blog: '0px 0px 12px 0px rgb(0,0,0,0.4)',
 			card_shadow_blog2: '0px 0px 20px 0px rgb(0,0,0,0.4)',
-		}
+		},
+      animation: {
+        'infinite-scroll': 'scroll 40s linear infinite',
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        }
+      },
   	}
   },
 };

@@ -51,13 +51,13 @@ const PopularPrivateJetCharters: React.FC<PopularPrivateJetChartersProps> = ({
             key={index}
             className="cursor-pointer rounded-2xl border-[3px] overflow-hidden transition-all ease-in duration-100 hover:-translate-y-2 hover:border-blue hover:shadow-card_shadow"
           >
-            <Image
+            {/* <Image
               src={card.imageLink}
               width={280}
               height={175}
               alt={card.altText}
               className="w-full object-cover"
-            />
+            /> */}
             <div className="p-4 text-white text-center bg-blue-background bg-cover">
               <h3 className="">{card.name}</h3>
             </div>

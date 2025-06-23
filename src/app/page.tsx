@@ -6,7 +6,6 @@ import ExclusiveServices from "@/sections/ExclusiveServices";
 import OurOffices from "@/sections/OurOffices";
 import CharterProcessSteps from "@/sections/CharterProcessSteps";
 import FourMetrics from "@/sections/FourMetrics";
-import SmartTravelTools from "@/sections/SmartTravelTools";
 import OurComitment from "@/sections/OurComitment";
 import PopularPrivateJetCharters from "@/sections/PopularPrivateJetCharters";
 import AvailableAircrafts from "@/sections/AvailableAircrafts";
@@ -14,7 +13,7 @@ import WhatOurClientsSay from "@/sections/WhatOurClientsSay";
 import Faqs from "@/sections/Faqs";
 
 export const metadata = {
-  title: "Specialized Aviation Services | Rotor Wing Services",
+  title: "Rotor Wing Services",
   description:
     "Rotor Wing Services offers expert aviation solutions, including crew resourcing, operational support, training, and consultancy. Partner with us for seamless global aviation operations.",
 };
@@ -63,7 +62,7 @@ export default function Home() {
         subtitle={"Your Strategic Aviation Partner"}
         tagline={"Expert Solutions, Unmatched Precision."}
         hasCalculator={true}
-        hasOverlay={false}
+        hasOverlay={true}
       />
       <BrandNames />
       <CompanyOverview
@@ -78,14 +77,9 @@ export default function Home() {
       <ExclusiveServices />
       <OurOffices />
       <CharterProcessSteps />
-      <SmartTravelTools />
       <OurComitment />
       <PopularPrivateJetCharters />
       <FourMetrics />
-      <AvailableAircrafts
-        heading="Our Helicopter Fleet & Solutions"
-        subHeading="Explore Rotor Wing Services' specialized aviation solutions and helicopter capabilities for diverse operational requirements."
-      />
       <WhatOurClientsSay />
       <Faqs />
       {/* <BookYourPrivateJet /> */}
