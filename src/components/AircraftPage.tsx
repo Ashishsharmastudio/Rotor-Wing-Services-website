@@ -7,7 +7,6 @@ import Breadcrumb from "./Breadcrumb/Breadcrumb";
 // import CollapsibleAircraftGridSection from "./CollapsibleAircraftGridSection";
 // import CollapsibleAircraftOverviewSection from "./CollapsibleAircraftOverviewSection";
 import ExclusiveServices from "@/sections/ExclusiveServices";
-import SmartTravelTools from "@/sections/SmartTravelTools";
 import PopularPrivateJetCharters from "@/sections/PopularPrivateJetCharters";
 import WhatOurClientsSay from "@/sections/WhatOurClientsSay";
 // import CollapsibleAvinodeCalculatorSection from "./CollapsibleAvinodeCalculatorSection";
@@ -69,7 +68,6 @@ const AircraftPage = ({ fields }: any) => {
       </section>
       <div className="px-5 md:px-10 xl:px-20 max-w-[1800px] mx-auto">
         <ExclusiveServices hasSectionPadding={false} hasInlinePadding={false} />
-        <SmartTravelTools hasSectionPadding={false} hasInlinePadding={false} />
         <PopularPrivateJetCharters
           hasSectionPadding={false}
           hasInlinePadding={false}
